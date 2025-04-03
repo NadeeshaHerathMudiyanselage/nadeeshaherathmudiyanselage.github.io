@@ -1402,3 +1402,20 @@ section,
     grid-template-columns: 1fr; /* Single column on smaller screens */
   }
 }
+
+/* Adjust the layout for left and right columns */
+.contact .container .row {
+  display: flex;
+  justify-content: space-between; /* Make the content span the full width */
+  align-items: flex-start; /* Align items to the top */
+}
+
+/* Ensure the left side has enough space */
+.contact .col-lg-5 {
+  width: 45%; /* You can adjust this percentage based on how much space you want to allocate */
+}
+
+/* Make the map (right side) take the proper width */
+.contact .col-lg-7 {
+  width: 50%; /* Adjust map's width here to your preference */
+}
