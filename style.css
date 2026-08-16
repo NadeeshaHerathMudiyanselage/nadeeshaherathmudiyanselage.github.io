@@ -3422,3 +3422,31 @@ body.modal-open {
   font-size: .74rem;
   line-height: 1;
 }
+
+/* Fix left profile panel alignment and long email overflow */
+.profile-info-list {
+  width: 100%;
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.profile-info-list div {
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  gap: 10px;
+  width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.profile-info-list div span {
+  flex: 0 0 22px;
+}
+
+/* Make the left panel slightly wider on desktop */
+.home-shell {
+  grid-template-columns: 410px minmax(0, 1fr);
+}
