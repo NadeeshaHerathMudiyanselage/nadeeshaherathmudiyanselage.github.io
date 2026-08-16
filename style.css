@@ -2217,7 +2217,7 @@ body.modal-open {
 .profile-info-list div {
   display: flex;
   gap: 10px;
-  align-items: center;
+  align-items: left;
   color: #425d52;
   font-size: .92rem;
   font-weight: 720;
