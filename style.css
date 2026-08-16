@@ -3457,7 +3457,7 @@ body.modal-open {
 
 /* Only homepage layout */
 .home-shell {
-  grid-template-columns: 500px minmax(0, 1fr) !important;
+  grid-template-columns: 460px minmax(0, 1fr) !important;
   gap: 34px !important;
 }
 
