@@ -3538,3 +3538,15 @@ body.modal-open {
     min-width: auto !important;
   }
 }
+
+.action-pdf.red-pdf {
+  background: #ffe8e8 !important;
+  color: #b42318 !important;
+  border-color: #f5b5b5 !important;
+}
+
+.action-pdf.red-pdf:hover {
+  background: #ffd6d6 !important;
+  color: #8f1d14 !important;
+  border-color: #e88989 !important;
+}
