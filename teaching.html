@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teaching | Nadeesha Herath</title>
+  <meta name="description" content="Teaching, workshops, tutorials, and academic training activities of Nadeesha Herath." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">Nadeesha Herath</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="navMenu">
+            <a href="index.html#about">About</a>
+      <a href="education.html">Education</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="awards.html">Awards</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="skills.html">Skills</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-card page-hero teaching-hero">
+      <a class="back-link" href="index.html">← Back to home</a>
+      <span class="eyebrow">Teaching</span>
+      <h1>Teaching & Academic Support</h1>
+      <p>
+        A calm overview of teaching, tutorial support, workshops, mentoring, and academic training activities in Computer Science, Data Science, AI, and applied analytics.
+      </p>
+    </section>
+
+    <section class="section-card teaching-section">
+      <div class="teaching-heading-row">
+        <div class="section-title">
+          <span class="eyebrow">Courses</span>
+          <h2>Teaching Activities</h2>
+        </div>
+        <p class="teaching-note">Click a course card to view course details, learning objectives, topics, and assessment structure.</p>
+      </div>
+
+      <div class="teaching-year-block">
+        <div class="teaching-year">2026</div>
+        <div class="teaching-course-list">
+          <button class="teaching-course-card course-trigger" type="button" data-course-modal="programming">
+            <div class="course-icon">💻</div>
+            <div class="course-content">
+              <div class="course-topline">
+                <span class="course-level">AID111</span>
+                <span class="course-hours">60 hrs</span>
+                <span class="course-level">Undergraduate</span>
+              </div>
+              <h3>Programming</h3>
+              <p>Python fundamentals, programming logic, functions, data structures, and practical problem-solving.</p>
+            </div>
+          </button>
+
+          <button class="teaching-course-card course-trigger" type="button" data-course-modal="data-analysis">
+            <div class="course-icon">📊</div>
+            <div class="course-content">
+              <div class="course-topline">
+                <span class="course-level">AID112</span>
+                <span class="course-hours">45 hrs</span>
+                <span class="course-level">Undergraduate</span>
+              </div>
+              <h3>Data Analysis and Visualization</h3>
+              <p>Data cleaning, exploratory analysis, visualization, interpretation, and reporting using practical datasets.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div class="teaching-year-block">
+        <div class="teaching-year">2025</div>
+        <div class="teaching-course-list">
+          <button class="teaching-course-card course-trigger" type="button" data-course-modal="machine-learning">
+            <div class="course-icon">🧠</div>
+            <div class="course-content">
+              <div class="course-topline">
+                <span class="course-level">AID211</span>
+                <span class="course-hours">60 hrs</span>
+                <span class="course-level">Undergraduate</span>
+              </div>
+              <h3>Machine Learning</h3>
+              <p>Core machine learning concepts, model development, evaluation, and responsible interpretation of results.</p>
+            </div>
+          </button>
+
+          <button class="teaching-course-card course-trigger" type="button" data-course-modal="research-methods">
+            <div class="course-icon">📚</div>
+            <div class="course-content">
+              <div class="course-topline">
+                <span class="course-level">RES101</span>
+                <span class="course-hours">30 hrs</span>
+                <span class="course-level">Academic Support</span>
+              </div>
+              <h3>Research Methods and Academic Writing</h3>
+              <p>Research planning, literature review, academic writing, documentation, and presentation guidance.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-card teaching-philosophy">
+      <span class="eyebrow">Approach</span>
+      <h2>Teaching Philosophy</h2>
+      <p>
+        My teaching approach focuses on clarity, patience, practical examples, and real-world application. I aim to make technical topics easier to understand by connecting theory with hands-on practice, visual explanations, and structured learning steps.
+      </p>
+    </section>
+  </main>
+
+  <div class="course-modal" id="courseModal" aria-hidden="true">
+    <div class="course-modal-backdrop" data-close-course-modal></div>
+    <div class="course-modal-panel" role="dialog" aria-modal="true" aria-labelledby="courseModalTitle">
+      <button class="course-modal-close" type="button" aria-label="Close course details" data-close-course-modal>×</button>
+      <div class="course-modal-content" id="courseModalContent"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Nadeesha Herath. Built with GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

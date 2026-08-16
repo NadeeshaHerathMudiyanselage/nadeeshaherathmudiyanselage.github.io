@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Nadeesha Herath</title>
+  <meta name="description" content="Blog posts, research reflections, academic experiences, and technical notes by Nadeesha Herath." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">Nadeesha Herath</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="navMenu">
+            <a href="index.html#about">About</a>
+      <a href="education.html">Education</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="awards.html">Awards</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="skills.html">Skills</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-card page-hero blog-hero">
+      <a class="back-link" href="index.html">← Back to home</a>
+      <span class="eyebrow">Blog</span>
+      <h1>Blog</h1>
+      <p>
+        Research reflections, academic experiences, technical notes, and personal learning stories from Computer Science, AI, Data Science, and life as a doctoral researcher.
+      </p>
+    </section>
+
+    <section class="section-card blog-filter-section">
+      <div class="blog-filter-grid">
+        <label>
+          <span>Search posts</span>
+          <input id="blogSearch" class="search-input" type="search" placeholder="Search blog posts..." />
+        </label>
+        <label>
+          <span>Category</span>
+          <select id="blogCategory" class="select-input">
+            <option value="all">All categories</option>
+            <option value="research">Research</option>
+            <option value="ai">AI</option>
+            <option value="phd">PhD Life</option>
+            <option value="learning">Learning</option>
+          </select>
+        </label>
+        <label>
+          <span>Sort by</span>
+          <select id="blogSort" class="select-input">
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="blog-grid" id="blogGrid">
+      <article class="blog-card" data-category="research" data-title="Starting My Research Journey in Finland" data-date="2026-08-16">
+        <a class="blog-card-link" href="blog-starting-research-journey.html" target="_blank" rel="noopener">
+          <div class="blog-image cover-image"><img src="assets/blog/research-journey.png" alt="Starting My Research Journey in Finland cover image" loading="lazy"></div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>PhD Life</span>
+              <span>3 min read</span>
+            </div>
+            <h2>Starting My Research Journey in Finland</h2>
+            <p>A short reflection on beginning a doctoral research journey, adapting to a new academic environment, and building research direction step by step.</p>
+            <div class="blog-date">August 2026</div>
+            <span class="read-more">Read More ↗</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="blog-card" data-category="ai" data-title="Why Explainable AI Matters in Real World Decision Making" data-date="2026-08-10">
+        <a class="blog-card-link" href="blog-explainable-ai.html" target="_blank" rel="noopener">
+          <div class="blog-image cover-image"><img src="assets/blog/explainable-ai.png" alt="Explainable AI cover image" loading="lazy"></div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>AI</span>
+              <span>4 min read</span>
+            </div>
+            <h2>Why Explainable AI Matters in Real-World Decision-Making</h2>
+            <p>Exploring why transparency, interpretation, and visual analytics are important when machine learning models support practical decisions.</p>
+            <div class="blog-date">August 2026</div>
+            <span class="read-more">Read More ↗</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="blog-card" data-category="learning" data-title="From Data Cleaning to Insight" data-date="2026-07-22">
+        <a class="blog-card-link" href="blog-data-cleaning-to-insight.html" target="_blank" rel="noopener">
+          <div class="blog-image cover-image"><img src="assets/blog/data-cleaning.png" alt="From Data Cleaning to Insight cover image" loading="lazy"></div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Learning</span>
+              <span>3 min read</span>
+            </div>
+            <h2>From Data Cleaning to Insight</h2>
+            <p>A beginner-friendly note on why data preparation is one of the most important parts of data analysis and machine learning workflows.</p>
+            <div class="blog-date">July 2026</div>
+            <span class="read-more">Read More ↗</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="blog-card" data-category="phd" data-title="What I Am Learning as a Doctoral Researcher" data-date="2026-07-12">
+        <a class="blog-card-link" href="blog-doctoral-researcher-lessons.html" target="_blank" rel="noopener">
+          <div class="blog-image cover-image"><img src="assets/blog/doctoral-lessons.png" alt="Doctoral researcher lessons cover image" loading="lazy"></div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>PhD Life</span>
+              <span>2 min read</span>
+            </div>
+            <h2>What I Am Learning as a Doctoral Researcher</h2>
+            <p>Thoughts on consistency, reading papers, asking better questions, and developing a sustainable research mindset.</p>
+            <div class="blog-date">July 2026</div>
+            <span class="read-more">Read More ↗</span>
+          </div>
+        </a>
+      </article>
+    </section>
+
+    <p class="empty-state" id="blogEmptyState" style="display:none;">No blog posts match your search.</p>
+
+    <section class="section-card blog-tags-section">
+      <span class="eyebrow">Popular Tags</span>
+      <div class="blog-tags">
+        <span>#ArtificialIntelligence</span>
+        <span>#MachineLearning</span>
+        <span>#DataScience</span>
+        <span>#ResearchLife</span>
+        <span>#PhDJourney</span>
+        <span>#Visualization</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Nadeesha Herath. Built with GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

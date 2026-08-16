@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Nadeesha Herath</title>
+  <meta name="description" content="Research, academic, AI, data science, and web portfolio projects of Nadeesha Herath." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">Nadeesha Herath</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="navMenu">
+            <a href="index.html#about">About</a>
+      <a href="education.html">Education</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="awards.html">Awards</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="skills.html">Skills</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-card page-hero projects-hero">
+      <a class="back-link" href="index.html">← Back to home</a>
+      <span class="eyebrow">Projects</span>
+      <h1>Projects</h1>
+      <p>
+        Research projects, academic work, AI and data science experiments, visual analytics studies, and selected technical portfolio work.
+      </p>
+    </section>
+
+    <section class="section-card project-filter-section">
+      <div class="project-filter-grid">
+        <label>
+          <span>Search projects</span>
+          <input id="projectSearch" class="search-input" type="search" placeholder="Search projects..." />
+        </label>
+        <label>
+          <span>Status</span>
+          <select id="projectStatus" class="select-input">
+            <option value="all">All statuses</option>
+            <option value="ongoing">Ongoing</option>
+            <option value="completed">Completed</option>
+          </select>
+        </label>
+        <label>
+          <span>Category</span>
+          <select id="projectCategory" class="select-input">
+            <option value="all">All categories</option>
+            <option value="ai">AI / ML</option>
+            <option value="visual">Visual Analytics</option>
+            <option value="web">Web / Portfolio</option>
+            <option value="analytics">Business Analytics</option>
+          </select>
+        </label>
+        <label>
+          <span>Sort by</span>
+          <select id="projectSort" class="select-input">
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="projects-grid" id="projectsGrid">
+      <article class="project-card" data-status="ongoing" data-category="ai visual" data-date="2026-08-16" data-title="Winter Road Intelligence">
+        <a class="project-card-link" href="project-winter-road-intelligence.html" target="_blank" rel="noopener">
+          <div class="project-image"><img src="assets/projects/winter-road-project.png" alt="Winter Road Intelligence project cover" loading="lazy"></div>
+          <div class="project-content">
+            <div class="project-meta"><span>Ongoing</span><span>AI / ML</span></div>
+            <h2>Winter Road Intelligence</h2>
+            <p>Machine learning and visual analytics project for road-surface hazard forecasting and decision support.</p>
+            <div class="project-date">2026</div>
+            <span class="read-more">View Project ↗</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="project-card" data-status="ongoing" data-category="ai" data-date="2026-08-10" data-title="Medical Image Analytics">
+        <a class="project-card-link" href="project-medical-image-analytics.html" target="_blank" rel="noopener">
+          <div class="project-image"><img src="assets/projects/medical-imaging-project.png" alt="Medical Image Analytics project cover" loading="lazy"></div>
+          <div class="project-content">
+            <div class="project-meta"><span>Ongoing</span><span>Computer Vision</span></div>
+            <h2>Medical Image Analytics</h2>
+            <p>AI-based medical image analysis, retrieval, representation learning, and explainability experiments.</p>
+            <div class="project-date">2026</div>
+            <span class="read-more">View Project ↗</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="project-card" data-status="completed" data-category="visual" data-date="2026-07-20" data-title="World Risk Index Visual Analytics">
+        <a class="project-card-link" href="project-world-risk-analytics.html" target="_blank" rel="noopener">
+          <div class="project-image"><img src="assets/projects/world-risk-project.png" alt="World Risk Index Visual Analytics project cover" loading="lazy"></div>
+          <div class="project-content">
+            <div class="project-meta"><span>Completed</span><span>Visual Analytics</span></div>
+            <h2>World Risk Index Visual Analytics</h2>
+            <p>Geospatial and statistical visualization project exploring global disaster risk patterns.</p>
+            <div class="project-date">2026</div>
+            <span class="read-more">View Project ↗</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="project-card" data-status="ongoing" data-category="ai" data-date="2026-07-12" data-title="Skin Lesion Similarity Retrieval">
+        <a class="project-card-link" href="project-skin-lesion-retrieval.html" target="_blank" rel="noopener">
+          <div class="project-image"><img src="assets/projects/bite-lesion-project.png" alt="Skin Lesion Similarity Retrieval project cover" loading="lazy"></div>
+          <div class="project-content">
+            <div class="project-meta"><span>Ongoing</span><span>Representation Learning</span></div>
+            <h2>Skin Lesion Similarity Retrieval</h2>
+            <p>Image similarity and retrieval workflow using modern visual foundation model representations.</p>
+            <div class="project-date">2026</div>
+            <span class="read-more">View Project ↗</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="project-card" data-status="completed" data-category="analytics" data-date="2025-11-12" data-title="Business Analytics Dashboard">
+        <a class="project-card-link" href="project-business-analytics-dashboard.html" target="_blank" rel="noopener">
+          <div class="project-image"><img src="assets/projects/business-analytics-project.png" alt="Business Analytics Dashboard project cover" loading="lazy"></div>
+          <div class="project-content">
+            <div class="project-meta"><span>Completed</span><span>Business Analytics</span></div>
+            <h2>Business Analytics Dashboard</h2>
+            <p>Analytics dashboard concept for reporting, performance monitoring, and decision support.</p>
+            <div class="project-date">2025</div>
+            <span class="read-more">View Project ↗</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="project-card" data-status="completed" data-category="web" data-date="2026-08-01" data-title="Academic Portfolio Website">
+        <a class="project-card-link" href="project-academic-portfolio.html" target="_blank" rel="noopener">
+          <div class="project-image"><img src="assets/projects/research-portfolio-project.png" alt="Academic Portfolio Website project cover" loading="lazy"></div>
+          <div class="project-content">
+            <div class="project-meta"><span>Completed</span><span>Web / Portfolio</span></div>
+            <h2>Academic Portfolio Website</h2>
+            <p>Personal academic portfolio built for research visibility, publications, teaching, blog, and contact details.</p>
+            <div class="project-date">2026</div>
+            <span class="read-more">View Project ↗</span>
+          </div>
+        </a>
+      </article>
+    </section>
+
+    <p class="empty-state" id="projectEmptyState" style="display:none;">No projects match your search.</p>
+  </main>
+
+  <footer>
+    <p>© 2026 Nadeesha Herath. Built with GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
