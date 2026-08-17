@@ -286,13 +286,67 @@
           <button class="pub-toggle abstract-toggle" type="button" data-target="abstract-mlva">Abstract</button>
           <button class="pub-toggle citation-toggle" type="button" data-target="citation-mlva">Citation</button>
         </div>
-        <div class="pub-extra abstract-box" id="abstract-mlva">
+        <div class="pub-extra abstract-box" id="abstract-ser">
           <h3>Abstract</h3>
           <p>Emotionalrecognitionandclassificationusingartificialintelligence(AI)techniquesplayacrucialrolein human-computer  interaction  (HCI).  It  enables  the  prediction  of  human  emotions  from  audio  signals  with  broad applications  in  psychology,  medicine,  education,  entertainment,  etc.  This  research  focused  on  speech-emotion recognition (SER) by employing classification methods and transformer models using the  Toronto Emotional  Speech Set (TESS). Initially, acoustic features were extracted using different feature extraction techniques, including chroma, Mel-scaled spectrogram, contrast features, and Mel Frequency Cepstral Coefficients (MFCCs) from the audio dataset. Then, this study employed a Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM), and a hybrid CNN-LSTM  model  to  classify  emotions.  To  compare  the  performance  of  these  models,  classical  image  transformer models  such  as  ViT  (Visual  Image  Transformer)  and  BEiT  (Bidirectional  Encoder  Representation  of  Images)  were employedontheMel-spectogramsderivedfromthesamedataset.Evaluationmetricssuchasaccuracy,precision,recall, and F1-scorewere calculatedfor eachofthese models to ensure a comprehensiveperformance comparison. According totheresults,thehybridmodelperformedbetterthanothermodelsbyachievinganaccuracyof99.01%,whiletheCNN, LSTM,ViT,andBEiTmodelsdemonstratedaccuraciesof95.37%,98.57%,98%,and98.3%, respectively.Tointerpret theoutputofthishybridmodelandtoprovidevisualexplanationsofitspredictions,theGrad-CAM(Gradient-weighted ClassActivationMappings)wasobtained.Thistechniquereducedtheblack-boxcharacterofdeepmodels,makingthem morereliabletouseinclinicalandotherdelicate contexts. Inconclusion,thehybridCNN-LSTMmodelshowed strong performance in audio-based emotion classification.</p>
         </div>
-        <div class="pub-extra citation-box" id="citation-mlva">
+        <div class="pub-extra citation-box" id="citation-ser">
           <h3>Citation</h3>
           <p>Kumari, H., Kumari, H. and Nawarathne, U. (2024). Speech Emotion Recognition with Hybrid CNN- LSTM and Transformers Models: Evaluating the Hybrid Model Using Grad-CAM. International Journal of Research in Computing, 3(1), p.56. doi:10.64701/ijrc/345/8907.</p>
+        </div>
+      </article>
+
+       <!--- ****************Publication 6*************--->
+      <article class="publication-card" data-year="2025" data-type="thesis">
+        <div class="pub-top">
+          <div>
+            <div class="pub-meta-row">
+              <span class="pub-type thesis"><span class="type-icon">🎓</span> Thesis</span>
+            </div>
+            <h2 class="pub-title">Prior Distribution Approaches in Bayesian Survival Models</h2>
+            <p class="pub-venue">
+              <em>
+                  Tampere Univerity, Finland  
+                </a>
+              </em>
+            </p>
+            <p class="pub-authors"> <strong>Nadeesha Shyami Kumari Herath Mudiyanselage </strong></p>
+           <!--- <p class="pub-venue">Machine Learning · Visual Analytics · Explainable AI</p>-->
+          </div>
+          <span class="pub-year">2025</span>
+        </div>
+        <div class="pub-tags" aria-label="Publication keywords">
+          <span>Bayesian survival models </span><span>Feature Selection </span><span> Hierarchical Prior </span><span>Posterior Prior</span><span> Prior Distributions </span>
+        </div>
+        <div class="pub-actions">
+          <a class="action-pdf red-pdf" href="https://trepo.tuni.fi/bitstream/handle/10024/224670/HerathMudiyanselageNadeesha.pdf?sequence=2&isAllowed=y" target="_blank" rel="noopener"><span>📄</span> PDF</a>
+          <!---<a class="action-code" href="https://github.com/NadeeshaHerathMudiyanselage/Speech-Emotion-hybridLSTM-RNn-gradcam" target="_blank" rel="noopener"><span>⌘</span> Code</a>--->
+          <button class="pub-toggle abstract-toggle" type="button" data-target="abstract-mlva">Abstract</button>
+          <button class="pub-toggle citation-toggle" type="button" data-target="citation-mlva">Citation</button>
+        </div>
+        <div class="pub-extra abstract-box" id="abstract-pdaibsm">
+          <h3>Abstract</h3>
+          <p>Survival analysis techniques have been applied across various fields, including medicine, engineering, social science, economics, etc, over the past decades. However, classical survival methods face major limitations, including challenges in accurately quantifying uncertainties and the difficulty of dealing with complex data structures. To overcome these challenges, Bayesian survival models have emerged as an alternative approach that provides a flexible and robust methodology. However, the prior distributions of these models play a pivotal role in drawing the final conclusion as they influence the posterior distribution by combining with the likelihood. Therefore, it is important to pay significant attention to different prior distribution approaches in the context of Bayesian
+survival models. </p> 
+          <p>In this study, we evaluated three different ways of setting prior distributions due to their potential to address the key aspects of Bayesian survival modeling: enhancing feature selection, leveraging prior information into the model, and modeling group-level variations using hierarchical structures. In the first approach, we examined how well Gaussian, Laplace, and Spike-and-Slab
+prior distributions perform in the feature selection process using Bayesian survival models. According to the results, it is clear that the Spike-and-Slab prior performed better than Gaussian and
+Laplace priors by shrinking the estimates of features towards zero while highlighting the irrelevant features. In the second approach, we assessed the effectiveness of Bayesian survival models by
+applying a posterior distribution obtained from an earlier study as the prior distribution of the new
+study. To compare the performance of the posterior prior, we also employed the Bayesian survival
+model with a weakly informative prior on simulated datasets while varying censoring thresholds
+and the number of observations. We observed that the Bayesian model with the posterior prior
+outperformed the weakly informative prior. However, the model with the weakly informative prior
+performed better than the posterior prior in larger datasets, highlighting the need for careful selection of prior distributions. In the final approach, we compared the performance of hierarchical
+Bayesian survival models to the non-hierarchical models, mainly focusing on groups with higher
+levels of risks, such as diseased individuals, using two simulated datasets with varying sample
+sizes. We observed that the hierarchical Bayesian survival model exhibited better performance
+than non-hierarchical models while capturing group-level variations.</p>
+<p>In summary, our findings reveal that carefully selected priors can help in extracting meaningful
+information from data and thus contribute to advancing the Bayesian survival analysis field./p>
+        </div>
+        <div class="pub-extra citation-box" id="citation-pdaibsm">
+          <h3>Citation</h3>
+          <p>Herath Mudiyanselage, N.S.K. (2025) Prior distribution approaches in Bayesian survival models, Trepo. Available at: https://trepo.tuni.fi/handle/10024/224670 (Accessed: 17 August 2026). .</p>
         </div>
       </article>
         
