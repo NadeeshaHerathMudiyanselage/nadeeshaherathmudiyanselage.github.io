@@ -2495,7 +2495,6 @@ body.modal-open {
   flex: 0 0 21px;
   object-fit: contain;
   display: inline-block;
-  filer:none !important;
 }
 
 .social-icon-links span {
@@ -3553,20 +3552,4 @@ body.modal-open {
 }
 
 
-.social-fallback-icon {
-  width: 21px;
-  height: 21px;
-  flex: 0 0 21px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  font-size: 0.72rem;
-  font-weight: 800;
-  line-height: 1;
-}
 
-.linkedin-fallback {
-  background: #0A66C2;
-  color: #ffffff;
-}
