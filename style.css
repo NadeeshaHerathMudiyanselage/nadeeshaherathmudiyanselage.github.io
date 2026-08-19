@@ -3559,15 +3559,22 @@ body.modal-open {
   margin-bottom: 16px;
 }
 
-/* Fix homepage education year box */
-.home-timeline article {
-  grid-template-columns: 145px minmax(0, 1fr) !important;
+/* Strong fix for homepage Education year box */
+#education .home-timeline article {
+  display: grid !important;
+  grid-template-columns: 170px minmax(0, 1fr) !important;
+  column-gap: 18px !important;
+  align-items: start !important;
 }
 
-.home-timeline .timeline-year {
-  min-width: 130px !important;
+#education .timeline-year {
+  width: 160px !important;
+  min-width: 160px !important;
+  max-width: 160px !important;
   white-space: nowrap !important;
-  font-size: 0.82rem !important;
-  padding: 10px 12px !important;
+  overflow: visible !important;
   text-align: center !important;
+  padding: 10px 12px !important;
+  font-size: 0.82rem !important;
+  line-height: 1.2 !important;
 }
