@@ -3552,4 +3552,9 @@ body.modal-open {
 }
 
 
-
+.home-section p {
+  text-align: justify;
+  max-width: 760px;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
