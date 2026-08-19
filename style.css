@@ -3558,3 +3558,16 @@ body.modal-open {
   line-height: 1.8;
   margin-bottom: 16px;
 }
+
+/* Fix homepage education year box */
+.home-timeline article {
+  grid-template-columns: 145px minmax(0, 1fr) !important;
+}
+
+.home-timeline .timeline-year {
+  min-width: 130px !important;
+  white-space: nowrap !important;
+  font-size: 0.82rem !important;
+  padding: 10px 12px !important;
+  text-align: center !important;
+}
