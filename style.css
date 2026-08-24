@@ -3612,10 +3612,6 @@ body.modal-open {
   min-width: 0 !important;
 }
 
-/* Remove yellow Doctoral Studies badge */
-.education-section .education-level {
-  display: none !important;
-}
 
 @media (max-width: 700px) {
   .education-section .detailed-education-card {
@@ -3625,4 +3621,37 @@ body.modal-open {
   .education-section .education-content {
     grid-column: 1 !important;
   }
+}
+
+/* Education page: keep left date box and yellow level badge */
+.education-section .detailed-education-card {
+  display: grid !important;
+  grid-template-columns: 190px minmax(0, 1fr) !important;
+  gap: 24px !important;
+  align-items: flex-start !important;
+}
+
+.education-section .education-icon {
+  display: none !important;
+}
+
+.education-section .education-year {
+  width: 175px !important;
+  min-width: 175px !important;
+  max-width: 175px !important;
+  white-space: nowrap !important;
+  text-align: center !important;
+  padding: 10px 14px !important;
+  font-size: 0.82rem !important;
+  line-height: 1.2 !important;
+}
+
+.education-section .education-content {
+  grid-column: 2 !important;
+  min-width: 0 !important;
+}
+
+.education-section .education-level {
+  display: inline-flex !important;
+  margin-bottom: 10px !important;
 }
