@@ -3578,3 +3578,29 @@ body.modal-open {
   font-size: 0.82rem !important;
   line-height: 1.2 !important;
 }
+
+/* Fix Education page layout when icon is not needed */
+.detailed-education-card {
+  grid-template-columns: 170px minmax(0, 1fr) !important;
+  gap: 24px !important;
+  align-items: flex-start !important;
+}
+
+.detailed-education-card .education-icon {
+  display: none !important;
+}
+
+.detailed-education-card .education-year {
+  width: 160px !important;
+  min-width: 160px !important;
+  max-width: 160px !important;
+  white-space: nowrap !important;
+  text-align: center !important;
+  padding: 10px 14px !important;
+  font-size: 0.82rem !important;
+  line-height: 1.2 !important;
+}
+
+.detailed-education-card .education-content {
+  min-width: 0 !important;
+}
