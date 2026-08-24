@@ -3559,69 +3559,10 @@ body.modal-open {
   margin-bottom: 16px;
 }
 
-/* Strong fix for homepage Education year box */
-#education .home-timeline article {
-  display: grid !important;
-  grid-template-columns: 170px minmax(0, 1fr) !important;
-  column-gap: 18px !important;
-  align-items: start !important;
-}
-
-#education .timeline-year {
-  width: 160px !important;
-  min-width: 160px !important;
-  max-width: 160px !important;
-  white-space: nowrap !important;
-  overflow: visible !important;
-  text-align: center !important;
-  padding: 10px 12px !important;
-  font-size: 0.82rem !important;
-  line-height: 1.2 !important;
-}
 
 
-/* FINAL FIX: Education page layout */
-.education-section .detailed-education-card {
-  display: grid !important;
-  grid-template-columns: 190px minmax(0, 1fr) !important;
-  gap: 24px !important;
-  align-items: flex-start !important;
-}
-
-/* Remove the empty icon box completely */
-.education-section .education-icon {
-  display: none !important;
-}
-
-/* Widen the date badge */
-.education-section .education-year {
-  width: 175px !important;
-  min-width: 175px !important;
-  max-width: 175px !important;
-  flex: 0 0 175px !important;
-  white-space: nowrap !important;
-  text-align: center !important;
-  padding: 10px 14px !important;
-  font-size: 0.82rem !important;
-  line-height: 1.2 !important;
-}
-
-/* Make content start immediately after date */
-.education-section .education-content {
-  grid-column: 2 !important;
-  min-width: 0 !important;
-}
 
 
-@media (max-width: 700px) {
-  .education-section .detailed-education-card {
-    grid-template-columns: 1fr !important;
-  }
-
-  .education-section .education-content {
-    grid-column: 1 !important;
-  }
-}
 
 /* Education page: keep left date box and yellow level badge */
 .education-section .detailed-education-card {
