@@ -3596,3 +3596,37 @@ body.modal-open {
   display: inline-flex !important;
   margin-bottom: 10px !important;
 }
+
+/* Homepage Education year badge fix */
+#education .home-timeline article {
+  display: grid !important;
+  grid-template-columns: 180px minmax(0, 1fr) !important;
+  gap: 28px !important;
+  align-items: center !important;
+}
+
+#education .timeline-year {
+  width: 150px !important;
+  min-width: 150px !important;
+  max-width: 150px !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  padding: 10px 14px !important;
+  border-radius: 22px !important;
+
+  white-space: nowrap !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  line-height: 1.2 !important;
+
+  background: #fff4df !important;
+  border: 1px solid #ead5a7 !important;
+  color: #6f4f16 !important;
+}
+
+#education .home-timeline article > div:last-child {
+  min-width: 0 !important;
+}
