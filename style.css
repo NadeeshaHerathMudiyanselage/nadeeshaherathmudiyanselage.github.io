@@ -3707,3 +3707,19 @@ body.modal-open {
   border-color: #cadbd0 !important;
 }
 
+/* Skills page: Font Awesome skill icons */
+.icon-skill-grid i.fa-solid {
+  min-width: 30px !important;
+  height: 30px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 999px !important;
+  background: #eef4f0 !important;
+  color: #335c49 !important;
+  border: 1px solid #d8e4dd !important;
+  font-size: 0.82rem !important;
+  font-style: normal !important;
+}
+
+
