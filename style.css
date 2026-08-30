@@ -3869,4 +3869,44 @@ body.modal-open {
   border-radius: 5px;
 }
 
+/* Contact page mobile fix */
+@media (max-width: 600px) {
+  .contact-page-section {
+    padding: 18px 14px !important;
+  }
 
+  .contact-page-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .contact-page-card {
+    display: grid !important;
+    grid-template-columns: 58px minmax(0, 1fr) !important;
+    gap: 16px !important;
+    padding: 20px 18px !important;
+    border-radius: 24px !important;
+  }
+
+  .contact-page-icon {
+    width: 58px !important;
+    height: 58px !important;
+    font-size: 1.35rem !important;
+  }
+
+  .contact-page-card a,
+  .contact-page-card strong {
+    display: block !important;
+    max-width: 100% !important;
+    overflow-wrap: anywhere !important;
+    word-break: break-word !important;
+    font-size: 1rem !important;
+    line-height: 1.45 !important;
+  }
+
+  .contact-page-card span {
+    font-size: 0.72rem !important;
+    letter-spacing: 0.12em !important;
+  }
+}
