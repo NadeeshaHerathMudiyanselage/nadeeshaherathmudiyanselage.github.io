@@ -3839,3 +3839,23 @@ body.modal-open {
   background: #fff0f4 !important;
   color: #8a3e55 !important;
 }
+
+
+.tool-fa {
+  width: 28px !important;
+  height: 28px !important;
+  min-width: 28px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  font-size: 0.9rem !important;
+  font-style: normal !important;
+}
+
+.minitab-icon { background: #e8f2ff !important; color: #25608a !important; }
+.spss-icon { background: #eef4ff !important; color: #315f9c !important; }
+.sas-icon { background: #eaf7f0 !important; color: #2f674a !important; }
+.eviews-icon { background: #f0eaff !important; color: #5d4a8c !important; }
+.weka-icon { background: #fff4df !important; color: #8a5a19 !important; }
+.tableau-icon { background: #fff0f4 !important; color: #8a3e55 !important; }
