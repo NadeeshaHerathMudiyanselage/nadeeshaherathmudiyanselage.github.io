@@ -3859,3 +3859,14 @@ body.modal-open {
 .eviews-icon { background: #f0eaff !important; color: #5d4a8c !important; }
 .weka-icon { background: #fff4df !important; color: #8a5a19 !important; }
 .tableau-icon { background: #fff0f4 !important; color: #8a3e55 !important; }
+
+.tool-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: inline-block;
+  flex: 0 0 28px;
+  border-radius: 5px;
+}
+
+
