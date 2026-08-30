@@ -3680,3 +3680,17 @@ body.modal-open {
   }
 }
 
+/* Education page: soft shaded detail boxes */
+.education-detail-grid > div {
+  background: linear-gradient(135deg, #f8fbf9, #fff8ec) !important;
+  border: 1px solid rgba(210, 224, 216, 0.95) !important;
+  box-shadow: 0 12px 28px rgba(42, 62, 54, 0.06) !important;
+}
+
+.education-detail-grid > div:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 34px rgba(42, 62, 54, 0.09) !important;
+}
+
+
+
