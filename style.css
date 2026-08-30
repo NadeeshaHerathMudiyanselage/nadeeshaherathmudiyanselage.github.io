@@ -3630,8 +3630,8 @@ body.modal-open {
 
 /* Larger round profile photo */
 .profile-photo-wrap {
-  width: 210px;
-  height: 210px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto 18px auto;
   border-radius: 50%;
   overflow: hidden;
@@ -3693,17 +3693,17 @@ body.modal-open {
 }
 
 
-/* Education page: reduce green tone in course pills */
+/* Education page: soft neutral course pills */
 .courses-followed-box .education-tags span {
-  background: #fffaf0 !important;
-  color: #5f5f56 !important;
-  border: 1px solid #eadfc9 !important;
+  background: #f6f8f6 !important;
+  color: #4f6259 !important;
+  border: 1px solid #dfe8e2 !important;
   box-shadow: none !important;
 }
 
 .courses-followed-box .education-tags span:hover {
-  background: #fff4df !important;
-  color: #4f4a3f !important;
-  border-color: #e3cfaa !important;
+  background: #eef4f0 !important;
+  color: #385c4c !important;
+  border-color: #cadbd0 !important;
 }
 
