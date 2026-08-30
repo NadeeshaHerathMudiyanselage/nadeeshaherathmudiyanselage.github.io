@@ -3630,8 +3630,8 @@ body.modal-open {
 
 /* Larger round profile photo */
 .profile-photo-wrap {
-  width: 180px;
-  height: 180px;
+  width: 210px;
+  height: 2100px;
   margin: 0 auto 18px auto;
   border-radius: 50%;
   overflow: hidden;
