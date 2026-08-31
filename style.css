@@ -4061,3 +4061,20 @@ body.modal-open {
     padding: 6px 9px !important;
   }
 }
+
+/* Research page: make thesis and ongoing project boxes wider */
+#thesis .thesis-card,
+#ongoing-projects .research-grid {
+  max-width: 1050px !important;
+  width: 100% !important;
+}
+
+/* Keep the ongoing project cards one below another */
+#ongoing-projects .research-grid {
+  grid-template-columns: 1fr !important;
+}
+
+/* Make each ongoing project card use full available width */
+#ongoing-projects .research-card {
+  width: 100% !important;
+}
