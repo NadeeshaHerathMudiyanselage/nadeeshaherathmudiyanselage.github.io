@@ -3990,3 +3990,13 @@ body.modal-open {
     grid-template-columns: 1fr 36px !important;
   }
 }
+
+/* Research page: vertical project list with readable width */
+#ongoing-projects .research-grid {
+  grid-template-columns: 1fr !important;
+  max-width: 900px !important;
+}
+
+#ongoing-projects .research-card {
+  width: 100% !important;
+}
