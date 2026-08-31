@@ -3944,3 +3944,18 @@ body.modal-open {
   line-height: 1.2 !important;
 }
 
+/* Education page course tags - new color style */
+.education-section .courses-followed-box .education-tags span {
+  background: #eef5ff !important;
+  color: #28577a !important;
+  border: 1px solid #cfe1f6 !important;
+  box-shadow: 0 6px 14px rgba(40, 87, 122, 0.06) !important;
+  font-weight: 750 !important;
+}
+
+.education-section .courses-followed-box .education-tags span:hover {
+  background: #dfeeff !important;
+  color: #1f4968 !important;
+  border-color: #b7d2ef !important;
+}
+
