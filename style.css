@@ -4078,3 +4078,18 @@ body.modal-open {
 #ongoing-projects .research-card {
   width: 100% !important;
 }
+
+/* Education page: make course tags white */
+.education-section .courses-followed-box .education-tags span {
+  background: #ffffff !important;
+  color: #2f4d42 !important;
+  border: 1px solid #dce4df !important;
+  box-shadow: 0 6px 14px rgba(42, 62, 54, 0.05) !important;
+  font-weight: 750 !important;
+}
+
+.education-section .courses-followed-box .education-tags span:hover {
+  background: #f8fbf9 !important;
+  color: #264f70 !important;
+  border-color: #cbdad2 !important;
+}
