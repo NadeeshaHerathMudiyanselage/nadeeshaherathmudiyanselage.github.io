@@ -4021,3 +4021,43 @@ body.modal-open {
   box-shadow: none !important;
   display: block !important;
 }
+
+/* Publications page: compact research keywords section */
+.keyword-section {
+  padding: 18px 20px !important;
+  border-radius: 22px !important;
+}
+
+.keyword-section h2 {
+  font-size: 1.25rem !important;
+  margin-bottom: 10px !important;
+}
+
+.keyword-cloud {
+  gap: 8px !important;
+  max-height: 170px !important;
+  overflow-y: auto !important;
+  padding-right: 6px !important;
+}
+
+.keyword-chip {
+  padding: 6px 10px !important;
+  font-size: 0.78rem !important;
+  font-weight: 750 !important;
+  border-radius: 999px !important;
+}
+
+@media (max-width: 600px) {
+  .keyword-section {
+    padding: 16px !important;
+  }
+
+  .keyword-cloud {
+    max-height: 180px !important;
+  }
+
+  .keyword-chip {
+    font-size: 0.76rem !important;
+    padding: 6px 9px !important;
+  }
+}
