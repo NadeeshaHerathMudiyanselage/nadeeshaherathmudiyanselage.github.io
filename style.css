@@ -4000,3 +4000,24 @@ body.modal-open {
 #ongoing-projects .research-card {
   width: 100% !important;
 }
+
+/* Homepage profile photo: larger square, no border */
+.profile-photo-wrap {
+  width: 230px !important;
+  height: 230px !important;
+  margin: 0 auto 20px auto !important;
+  border-radius: 26px !important;
+  overflow: hidden !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.profile-photo {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 26px !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: block !important;
+}
