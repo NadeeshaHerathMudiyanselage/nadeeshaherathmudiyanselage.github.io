@@ -115,8 +115,8 @@ const courseModalContent = document.getElementById("courseModalContent");
 const courseTriggers = document.querySelectorAll("[data-course-modal]");
 
 const courseDetails = {
-  "programming": `
-    <h2 id="courseModalTitle">Programming</h2>
+  "foundationit": `
+    <h2 id="courseModalTitle">Foundation IT</h2>
     <div class="modal-course-meta">
       <span>AID111</span>
       <span>60 hrs</span>
@@ -152,7 +152,7 @@ const courseDetails = {
       <div class="assessment-item">Final Exam <strong>60%</strong></div>
     </div>
   `,
-  "data-analysis": `
+  "math-for-bio": `
     <h2 id="courseModalTitle">Data Analysis and Visualization</h2>
     <div class="modal-course-meta">
       <span>AID112</span>
@@ -186,7 +186,7 @@ const courseDetails = {
       <div class="assessment-item">Final Project <strong>50%</strong></div>
     </div>
   `,
-  "machine-learning": `
+  "math-for-or": `
     <h2 id="courseModalTitle">Machine Learning</h2>
     <div class="modal-course-meta">
       <span>AID211</span>
@@ -221,7 +221,7 @@ const courseDetails = {
       <div class="assessment-item">Project / Exam <strong>60%</strong></div>
     </div>
   `,
-  "research-methods": `
+  "advanced-linear": `
     <h2 id="courseModalTitle">Research Methods and Academic Writing</h2>
     <div class="modal-course-meta">
       <span>RES101</span>
