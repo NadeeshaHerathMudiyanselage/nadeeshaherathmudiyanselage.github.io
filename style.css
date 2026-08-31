@@ -4093,3 +4093,19 @@ body.modal-open {
   color: #264f70 !important;
   border-color: #cbdad2 !important;
 }
+
+/* Education page: light blue course tags */
+.education-section .courses-followed-box .education-tags span {
+  background: #eef7ff !important;
+  color: #28577a !important;
+  border: 1px solid #cfe6f8 !important;
+  box-shadow: 0 6px 14px rgba(40, 87, 122, 0.05) !important;
+  font-weight: 750 !important;
+}
+
+.education-section .courses-followed-box .education-tags span:hover {
+  background: #e1f0ff !important;
+  color: #1f4968 !important;
+  border-color: #b7d9f3 !important;
+}
+
