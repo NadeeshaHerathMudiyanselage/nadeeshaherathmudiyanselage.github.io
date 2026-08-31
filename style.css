@@ -3913,3 +3913,34 @@ body.modal-open {
     line-height: 1.45 !important;
   }
 }
+
+/* Homepage profile photo: square style */
+.profile-photo-wrap {
+  width: 190px !important;
+  height: 190px !important;
+  margin: 0 auto 18px auto !important;
+  border-radius: 28px !important;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.profile-photo {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 28px !important;
+  display: block !important;
+}
+
+/* Homepage education year badges: smaller size */
+#education .timeline-year {
+  width: 130px !important;
+  min-width: 130px !important;
+  max-width: 130px !important;
+  padding: 8px 12px !important;
+  font-size: 0.82rem !important;
+  line-height: 1.2 !important;
+}
+
