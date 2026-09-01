@@ -4951,3 +4951,38 @@ body.modal-open {
 .membership-card {
   grid-template-columns: 1fr !important;
 }
+
+/* Awards page: category badge colors */
+
+/* Common badge style */
+.awards-section .award-type {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 7px 12px !important;
+  border-radius: 999px !important;
+  font-size: 0.76rem !important;
+  font-weight: 800 !important;
+}
+
+/* Scholarship stays yellow */
+.awards-section .award-type.scholarship {
+  background: #fff4df !important;
+  color: #7a561d !important;
+  border: 1px solid #ead5a7 !important;
+}
+
+/* All other award categories change to green */
+.awards-section .award-type.academic {
+  background: #eaf7f0 !important;
+  color: #2f674a !important;
+  border: 1px solid #cde7d8 !important;
+}
+
+/* Certifications / training / memberships can stay blue */
+.awards-section .award-type.certificate,
+.awards-section .award-type.training,
+.awards-section .award-type.membership {
+  background: #eef7ff !important;
+  color: #28577a !important;
+  border: 1px solid #cfe6f8 !important;
+}
