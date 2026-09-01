@@ -4929,3 +4929,25 @@ body.modal-open {
     width: fit-content !important;
   }
 }
+
+/* Awards page: remove all icons */
+.award-icon,
+.certificate-icon,
+.membership-icon {
+  display: none !important;
+}
+
+/* Adjust award cards after removing icons */
+.award-card {
+  grid-template-columns: 1fr !important;
+}
+
+/* Adjust certificate top row after removing icons */
+.certificate-top {
+  justify-content: flex-start !important;
+}
+
+/* Adjust membership cards after removing icons */
+.membership-card {
+  grid-template-columns: 1fr !important;
+}
