@@ -4704,3 +4704,32 @@ body.modal-open {
 .thesis-meta-item strong {
   color: #23352e;
 }
+
+/* Master's thesis/info cards using same education detail style */
+.thesis-detail-grid {
+  margin-top: 14px !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+
+.thesis-detail-grid > div {
+  background: linear-gradient(135deg, #f8fbf9, #fff8ec) !important;
+  border: 1px solid rgba(210, 224, 216, 0.95) !important;
+  box-shadow: 0 12px 28px rgba(42, 62, 54, 0.06) !important;
+}
+
+.thesis-detail-grid strong {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.thesis-detail-grid strong i {
+  color: #4f6f61 !important;
+  font-size: 0.95rem !important;
+}
+
+@media (max-width: 760px) {
+  .thesis-detail-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
