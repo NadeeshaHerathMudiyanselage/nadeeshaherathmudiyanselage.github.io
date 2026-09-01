@@ -4893,3 +4893,39 @@ body.modal-open {
   font-weight: 850 !important;
 }
 
+/* Experience page: make all experience cards use the same shade as Intern for Business Intelligence */
+.experience-card,
+.experience-card.academic-card,
+.experience-card.industry-card,
+.experience-card.leadership-card {
+  background: linear-gradient(135deg, #fffdf8, #f5fbf7) !important;
+}
+
+/* Experience dates: make all date boxes green */
+.experience-period {
+  background: #eaf7f0 !important;
+  color: #2f674a !important;
+  border: 1px solid #cde7d8 !important;
+  font-weight: 850 !important;
+}
+
+/* Volunteer section: remove icons */
+.volunteer-icon {
+  display: none !important;
+}
+
+/* Adjust volunteer card layout after removing icons */
+.volunteer-card {
+  grid-template-columns: 90px 1fr !important;
+}
+
+/* Mobile volunteer layout */
+@media (max-width: 600px) {
+  .volunteer-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .volunteer-date {
+    width: fit-content !important;
+  }
+}
