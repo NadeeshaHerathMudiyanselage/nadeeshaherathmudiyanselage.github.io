@@ -4733,3 +4733,45 @@ body.modal-open {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* Single card for thesis information */
+.single-thesis-info-card {
+  margin-top: 16px;
+  padding: 18px 22px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #f8fbf9, #fff8ec);
+  border: 1px solid rgba(210, 224, 216, 0.95);
+  box-shadow: 0 12px 28px rgba(42, 62, 54, 0.06);
+}
+
+.thesis-info-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.thesis-info-line:not(:last-child) {
+  border-bottom: 1px solid rgba(220, 228, 223, 0.75);
+}
+
+.thesis-info-line i {
+  width: 22px;
+  min-width: 22px;
+  margin-top: 4px;
+  color: #4f6f61;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.thesis-info-line p {
+  margin: 0;
+  color: #596b64;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.thesis-info-line strong {
+  color: #2f4f46;
+  font-weight: 800;
+}
