@@ -4836,3 +4836,60 @@ body.modal-open {
   color: #2f4f46 !important;
   font-weight: 850 !important;
 }
+
+/* Make thesis title box match Specialization card style */
+.thesis-title-box {
+  margin-top: 14px !important;
+  padding: 18px !important;
+  border-radius: 18px !important;
+  background: linear-gradient(135deg, #f8fbf9, #fff8ec) !important;
+  border: 1px solid rgba(210, 224, 216, 0.95) !important;
+  box-shadow: 0 12px 28px rgba(42, 62, 54, 0.06) !important;
+}
+
+/* Same as Specialization label */
+.thesis-title-box > strong {
+  display: block !important;
+  margin-bottom: 6px !important;
+  color: #2f4f46 !important;
+  font-size: 0.86rem !important;
+  font-weight: 850 !important;
+}
+
+/* Same as Specialization content text */
+.thesis-title-box > span {
+  display: block !important;
+  color: #596b64 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
+  margin-bottom: 12px !important;
+}
+
+/* Details inside the thesis title card */
+.inside-thesis-title {
+  margin-top: 12px !important;
+  padding: 12px 14px !important;
+  border-radius: 16px !important;
+  background: rgba(255, 255, 255, 0.65) !important;
+  border: 1px solid rgba(220, 228, 223, 0.8) !important;
+  box-shadow: none !important;
+}
+
+/* Make Started / Supervisors / Place same size */
+.inside-thesis-title .thesis-info-line p,
+.inside-thesis-title .thesis-info-line strong {
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+}
+
+.inside-thesis-title .thesis-info-line p {
+  color: #596b64 !important;
+  font-weight: 500 !important;
+}
+
+.inside-thesis-title .thesis-info-line strong {
+  color: #2f4f46 !important;
+  font-weight: 850 !important;
+}
+
