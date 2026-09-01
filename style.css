@@ -4986,3 +4986,51 @@ body.modal-open {
   color: #28577a !important;
   border: 1px solid #cfe6f8 !important;
 }
+
+/* Awards page: remove icons and place year on the left */
+.awards-section .award-icon {
+  display: none !important;
+}
+
+.awards-section .award-card {
+  display: grid !important;
+  grid-template-columns: 120px minmax(0, 1fr) !important;
+  gap: 22px !important;
+  align-items: flex-start !important;
+  padding: 24px !important;
+  border-radius: 24px !important;
+  background: linear-gradient(135deg, #fffdf8, #f5fbf7) !important;
+  border: 1px solid rgba(210, 224, 216, 0.95) !important;
+  box-shadow: 0 14px 34px rgba(42, 62, 54, 0.07) !important;
+}
+
+/* Move year to left side */
+.awards-section .award-year {
+  grid-column: 1 !important;
+  grid-row: 1 / span 3 !important;
+  width: 96px !important;
+  min-width: 96px !important;
+  padding: 12px 14px !important;
+  border-radius: 16px !important;
+  background: #eaf7f0 !important;
+  color: #2f674a !important;
+  border: 1px solid #cde7d8 !important;
+  text-align: center !important;
+  font-size: 0.9rem !important;
+  font-weight: 850 !important;
+  line-height: 1.25 !important;
+}
+
+/* Award content on right */
+.awards-section .award-content {
+  grid-column: 2 !important;
+  min-width: 0 !important;
+}
+
+/* Keep meta row on right, but hide the year from normal row position */
+.awards-section .award-meta {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+  margin-bottom: 10px !important;
+}
