@@ -4596,3 +4596,111 @@ body.modal-open {
   }
 }
 
+.thesis-box {
+  margin-top: 18px;
+  padding: 22px 24px;
+  border: 1px solid #d7e3db;
+  border-radius: 26px;
+  background: #ffffff;
+}
+
+.thesis-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.thesis-title-block {
+  flex: 1;
+  min-width: 280px;
+}
+
+.thesis-title-block strong {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #315847;
+  margin-bottom: 8px;
+}
+
+.thesis-title-block span {
+  display: block;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1f1f1f;
+  line-height: 1.5;
+}
+
+.thesis-progress-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 210px;
+  justify-content: flex-end;
+}
+
+.thesis-progress-text {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111111;
+}
+
+.thesis-tube {
+  position: relative;
+  width: 150px;
+  height: 14px;
+  border: 2px solid #5a5a5a;
+  border-radius: 999px;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.thesis-tube::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: -2px;
+  width: 8px;
+  height: 14px;
+  border: 2px solid #5a5a5a;
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  background: #f7f7f7;
+}
+
+.thesis-tube-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 999px;
+  background: #111111;
+}
+
+.thesis-meta {
+  margin-top: 18px;
+  display: grid;
+  gap: 14px;
+}
+
+.thesis-meta-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 1rem;
+  color: #435c53;
+  line-height: 1.6;
+}
+
+.thesis-meta-item i {
+  font-size: 1rem;
+  color: #315847;
+  margin-top: 4px;
+  min-width: 18px;
+}
+
+.thesis-meta-item strong {
+  color: #23352e;
+}
