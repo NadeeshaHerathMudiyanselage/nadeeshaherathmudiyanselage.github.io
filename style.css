@@ -5747,3 +5747,41 @@ body.modal-open {
   }
 }
 
+
+/* FINAL: Education mobile text should look like normal paragraphs */
+@media (max-width: 700px) {
+
+  .education-section .education-detail-grid > div span,
+  .education-section .thesis-title-box > span,
+  .education-section .inside-thesis-title .thesis-info-line p {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+
+    font-size: 0.92rem !important;
+    font-weight: 500 !important;
+    line-height: 1.65 !important;
+    letter-spacing: normal !important;
+    text-align: left !important;
+
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    hyphens: none !important;
+  }
+
+  .education-section .education-detail-grid > div strong,
+  .education-section .thesis-title-box > strong,
+  .education-section .inside-thesis-title .thesis-info-line strong {
+    display: block !important;
+    margin-bottom: 6px !important;
+    font-size: 0.88rem !important;
+    font-weight: 850 !important;
+    line-height: 1.35 !important;
+    letter-spacing: normal !important;
+  }
+
+  .education-section .education-detail-grid > div {
+    text-align: left !important;
+  }
+}
