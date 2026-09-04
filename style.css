@@ -5580,3 +5580,170 @@ body.modal-open {
     word-break: normal !important;
   }
 }
+
+/* Talks page - Education style */
+.talks-section {
+  padding: 28px !important;
+}
+
+.talks-list {
+  display: grid !important;
+  gap: 18px !important;
+}
+
+.talk-card {
+  display: grid !important;
+  grid-template-columns: 150px minmax(0, 1fr) !important;
+  gap: 24px !important;
+  align-items: flex-start !important;
+  padding: 24px !important;
+  border-radius: 28px !important;
+  background: linear-gradient(135deg, #f8fbf9, #fff8ec) !important;
+  border: 1px solid rgba(210, 224, 216, 0.95) !important;
+  box-shadow: 0 12px 28px rgba(42, 62, 54, 0.06) !important;
+}
+
+.talk-year {
+  width: 130px !important;
+  min-width: 130px !important;
+  max-width: 130px !important;
+  padding: 10px 14px !important;
+  border-radius: 18px !important;
+  background: #eaf7f0 !important;
+  color: #2f674a !important;
+  border: 1px solid #cde7d8 !important;
+  text-align: center !important;
+  font-size: 0.86rem !important;
+  font-weight: 850 !important;
+  line-height: 1.25 !important;
+}
+
+.talk-content {
+  min-width: 0 !important;
+}
+
+.talk-title-row {
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+  gap: 18px !important;
+  margin-bottom: 14px !important;
+}
+
+.talk-title-row h3 {
+  margin: 0 0 8px 0 !important;
+  color: #264f70 !important;
+  font-size: 1.18rem !important;
+  line-height: 1.35 !important;
+  font-weight: 850 !important;
+}
+
+.talk-event {
+  margin: 0 !important;
+  color: #435a51 !important;
+  font-size: 0.96rem !important;
+  line-height: 1.55 !important;
+  font-weight: 750 !important;
+}
+
+.talk-award-tab {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  flex-shrink: 0 !important;
+  padding: 8px 13px !important;
+  border-radius: 999px !important;
+  background: #fff4df !important;
+  color: #7a561d !important;
+  border: 1px solid #ead5a7 !important;
+  font-size: 0.76rem !important;
+  font-weight: 850 !important;
+  line-height: 1.2 !important;
+  white-space: nowrap !important;
+}
+
+.talk-award-tab i {
+  font-size: 0.82rem !important;
+}
+
+.single-talk-info-card {
+  margin-top: 14px !important;
+  padding: 14px 16px !important;
+  border-radius: 18px !important;
+  background: rgba(255, 255, 255, 0.72) !important;
+  border: 1px solid rgba(220, 228, 223, 0.85) !important;
+  box-shadow: none !important;
+}
+
+.single-talk-info-card .talk-info-line {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+  padding: 7px 0 !important;
+}
+
+.single-talk-info-card .talk-info-line:not(:last-child) {
+  border-bottom: 1px solid rgba(220, 228, 223, 0.75) !important;
+}
+
+.single-talk-info-card .talk-info-line i {
+  width: 20px !important;
+  min-width: 20px !important;
+  margin-top: 4px !important;
+  color: #4f6f61 !important;
+  font-size: 0.92rem !important;
+  text-align: center !important;
+}
+
+.single-talk-info-card .talk-info-line p {
+  margin: 0 !important;
+  color: #596b64 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.55 !important;
+  font-weight: 500 !important;
+}
+
+.single-talk-info-card .talk-info-line strong {
+  color: #2f4f46 !important;
+  font-weight: 850 !important;
+}
+
+/* Mobile view */
+@media (max-width: 700px) {
+  .talks-section {
+    padding: 20px 14px !important;
+  }
+
+  .talk-card {
+    display: block !important;
+    padding: 22px 18px !important;
+    border-radius: 26px !important;
+  }
+
+  .talk-year {
+    width: fit-content !important;
+    min-width: auto !important;
+    max-width: 100% !important;
+    margin-bottom: 14px !important;
+    padding: 9px 16px !important;
+  }
+
+  .talk-title-row {
+    display: block !important;
+  }
+
+  .talk-title-row h3 {
+    font-size: 1.12rem !important;
+    line-height: 1.35 !important;
+  }
+
+  .talk-award-tab {
+    margin-top: 12px !important;
+    white-space: normal !important;
+  }
+
+  .single-talk-info-card {
+    padding: 12px 14px !important;
+  }
+}
+
