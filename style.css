@@ -5785,3 +5785,197 @@ body.modal-open {
     text-align: left !important;
   }
 }
+
+/* Experience page - Talks/Education style with place under title */
+.experience-card,
+.volunteer-card {
+  display: grid !important;
+  grid-template-columns: 150px minmax(0, 1fr) !important;
+  gap: 24px !important;
+  align-items: flex-start !important;
+  padding: 24px !important;
+  border-radius: 28px !important;
+  background: linear-gradient(135deg, #f8fbf9, #fff8ec) !important;
+  border: 1px solid rgba(210, 224, 216, 0.95) !important;
+  box-shadow: 0 12px 28px rgba(42, 62, 54, 0.06) !important;
+}
+
+.experience-period,
+.volunteer-date {
+  width: 130px !important;
+  min-width: 130px !important;
+  max-width: 130px !important;
+  padding: 10px 14px !important;
+  border-radius: 18px !important;
+  background: #eaf7f0 !important;
+  color: #2f674a !important;
+  border: 1px solid #cde7d8 !important;
+  text-align: center !important;
+  font-size: 0.82rem !important;
+  font-weight: 850 !important;
+  line-height: 1.25 !important;
+}
+
+.experience-content h3,
+.volunteer-content h3 {
+  margin: 0 0 6px 0 !important;
+  color: #264f70 !important;
+  font-size: 1.18rem !important;
+  line-height: 1.35 !important;
+  font-weight: 850 !important;
+}
+
+.experience-place {
+  margin: 0 0 14px 0 !important;
+  color: #435a51 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.55 !important;
+  font-weight: 750 !important;
+}
+
+.single-experience-info-card {
+  margin-top: 12px !important;
+  padding: 14px 16px !important;
+  border-radius: 18px !important;
+  background: rgba(255, 255, 255, 0.72) !important;
+  border: 1px solid rgba(220, 228, 223, 0.85) !important;
+  box-shadow: none !important;
+}
+
+.single-experience-info-card .experience-info-line {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+  padding: 7px 0 !important;
+}
+
+.single-experience-info-card .experience-info-line i {
+  width: 20px !important;
+  min-width: 20px !important;
+  margin-top: 4px !important;
+  color: #4f6f61 !important;
+  font-size: 0.92rem !important;
+  text-align: center !important;
+}
+
+.single-experience-info-card .experience-info-line p {
+  margin: 0 !important;
+  color: #596b64 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.55 !important;
+  font-weight: 500 !important;
+}
+
+.single-experience-info-card .experience-info-line strong {
+  color: #2f4f46 !important;
+  font-weight: 850 !important;
+}
+
+/* Remove volunteer icons */
+.volunteer-icon {
+  display: none !important;
+}
+
+/* Volunteer category tab at top */
+.volunteer-type {
+  display: inline-flex !important;
+  align-items: center !important;
+  width: fit-content !important;
+  margin: 0 0 12px 0 !important;
+  padding: 7px 12px !important;
+  border-radius: 999px !important;
+  font-size: 0.76rem !important;
+  font-weight: 850 !important;
+  line-height: 1.2 !important;
+}
+
+/* Volunteer type colours */
+.volunteer-type.community-engagement {
+  background: #eef7ff !important;
+  color: #28577a !important;
+  border: 1px solid #cfe6f8 !important;
+}
+
+.volunteer-type.committee-leadership {
+  background: #f3efff !important;
+  color: #5d4a91 !important;
+  border: 1px solid #d8cff5 !important;
+}
+
+.volunteer-type.project-coordination {
+  background: #eaf7f0 !important;
+  color: #2f674a !important;
+  border: 1px solid #cde7d8 !important;
+}
+
+.volunteer-type.event-coordination {
+  background: #fff4df !important;
+  color: #7a561d !important;
+  border: 1px solid #ead5a7 !important;
+}
+
+.volunteer-type.mentoring {
+  background: #ffeef2 !important;
+  color: #8a3e55 !important;
+  border: 1px solid #f4ccd7 !important;
+}
+
+.volunteer-type.society-service {
+  background: #f0f5ff !important;
+  color: #324d78 !important;
+  border: 1px solid #d4e0fb !important;
+}
+
+.volunteer-type.student-leadership {
+  background: #fff0f0 !important;
+  color: #9a3b3b !important;
+  border: 1px solid #f2caca !important;
+}
+
+.volunteer-type.event-hosting {
+  background: #f1f8e9 !important;
+  color: #526d1f !important;
+  border: 1px solid #d7e8b8 !important;
+}
+
+.volunteer-type.student-representation {
+  background: #eef4f7 !important;
+  color: #3f5f6f !important;
+  border: 1px solid #cfdee6 !important;
+}
+
+/* Mobile view */
+@media (max-width: 700px) {
+  .experience-card,
+  .volunteer-card {
+    display: block !important;
+    padding: 22px 18px !important;
+    border-radius: 26px !important;
+  }
+
+  .experience-period,
+  .volunteer-date {
+    width: fit-content !important;
+    min-width: auto !important;
+    max-width: 100% !important;
+    margin-bottom: 14px !important;
+    padding: 9px 16px !important;
+    white-space: normal !important;
+  }
+
+  .experience-content h3,
+  .volunteer-content h3 {
+    font-size: 1.12rem !important;
+    line-height: 1.35 !important;
+  }
+
+  .single-experience-info-card {
+    padding: 12px 14px !important;
+  }
+
+  .single-experience-info-card .experience-info-line p,
+  .volunteer-content p {
+    overflow-wrap: break-word !important;
+    word-break: normal !important;
+  }
+}
