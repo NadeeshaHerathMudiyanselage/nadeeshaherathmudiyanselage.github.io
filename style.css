@@ -6179,3 +6179,36 @@ body.modal-open {
     word-break: normal !important;
   }
 }
+
+.single-talk-info-card {
+  margin-top: 14px !important;
+  padding: 18px !important;
+  border-radius: 18px !important;
+
+  background: linear-gradient(
+    135deg,
+    #f8fbf9,
+    #fff8ec
+  ) !important;
+
+  border: 1px solid rgba(
+    210,
+    224,
+    216,
+    0.95
+  ) !important;
+
+  box-shadow: 0 12px 28px rgba(
+    42,
+    62,
+    54,
+    0.06
+  ) !important;
+}
+
+.single-talk-info-card .talk-info-line {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+  padding: 7px 0 !important;
+}
