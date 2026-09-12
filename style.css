@@ -6920,4 +6920,232 @@ body.modal-open {
   }
 }
 
+/* =========================================================
+   EXPERIENCE PAGE - FINAL DATE + DETAILS CARD STYLE
+   ========================================================= */
 
+
+/* =========================================================
+   1. SLIGHTLY WIDER DATE / YEAR COLUMN
+   ========================================================= */
+
+#academic .experience-card,
+#industry .experience-card,
+.volunteer-section .volunteer-card {
+  grid-template-columns: 175px minmax(0, 1fr) !important;
+  gap: 22px !important;
+}
+
+
+/* Wider date badge */
+#academic .experience-period,
+#industry .experience-period,
+.volunteer-section .volunteer-date {
+  width: 155px !important;
+  min-width: 155px !important;
+  max-width: 155px !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  padding: 10px 12px !important;
+
+  border-radius: 16px !important;
+
+  background: #edf6f1 !important;
+  color: #3f6f58 !important;
+  border: 1px solid #d0e6d8 !important;
+
+  text-align: center !important;
+  white-space: nowrap !important;
+
+  font-size: 0.82rem !important;
+  font-weight: 900 !important;
+  line-height: 1.2 !important;
+}
+
+
+/* =========================================================
+   2. DETAILS CARD
+   SAME AS AWARDS "DETAILS / CONTRIBUTIONS"
+   ========================================================= */
+
+
+/* Existing inner Details card */
+.single-experience-info-card {
+  margin-top: 14px !important;
+
+  padding: 14px 15px !important;
+
+  border-radius: 18px !important;
+
+  background: linear-gradient(
+    135deg,
+    #f8fbf9,
+    #fff8ec
+  ) !important;
+
+  border: 1px solid rgba(210, 224, 216, 0.95) !important;
+
+  box-shadow:
+    0 12px 28px rgba(42, 62, 54, 0.06) !important;
+}
+
+
+/* Remove unnecessary extra spacing */
+.single-experience-info-card .experience-info-line {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+
+  padding: 0 !important;
+}
+
+
+/* Details text */
+.single-experience-info-card .experience-info-line p {
+  margin: 0 !important;
+
+  color: #5f7068 !important;
+
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+
+  line-height: 1.55 !important;
+}
+
+
+/* "Details:" heading */
+.single-experience-info-card .experience-info-line strong {
+  color: #385f51 !important;
+
+  font-size: 0.84rem !important;
+  font-weight: 700 !important;
+}
+
+
+/* Icon inside Details box */
+.single-experience-info-card .experience-info-line i {
+  color: #4f6f61 !important;
+
+  font-size: 0.88rem !important;
+
+  margin-top: 4px !important;
+}
+
+
+/* =========================================================
+   PLAIN EXPERIENCE DESCRIPTIONS
+   Turn them into the same shaded Details card automatically
+   ========================================================= */
+
+.experience-content .experience-description {
+  margin-top: 14px !important;
+  margin-bottom: 0 !important;
+
+  padding: 14px 15px !important;
+
+  border-radius: 18px !important;
+
+  background: linear-gradient(
+    135deg,
+    #f8fbf9,
+    #fff8ec
+  ) !important;
+
+  border: 1px solid rgba(210, 224, 216, 0.95) !important;
+
+  box-shadow:
+    0 12px 28px rgba(42, 62, 54, 0.06) !important;
+
+  color: #5f7068 !important;
+
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+
+  line-height: 1.55 !important;
+}
+
+
+/* =========================================================
+   VOLUNTEER DESCRIPTION
+   Same Details / Contributions box
+   ========================================================= */
+
+.volunteer-content > p:not(.experience-place) {
+  margin-top: 14px !important;
+  margin-bottom: 0 !important;
+
+  padding: 14px 15px !important;
+
+  border-radius: 18px !important;
+
+  background: linear-gradient(
+    135deg,
+    #f8fbf9,
+    #fff8ec
+  ) !important;
+
+  border: 1px solid rgba(210, 224, 216, 0.95) !important;
+
+  box-shadow:
+    0 12px 28px rgba(42, 62, 54, 0.06) !important;
+
+  color: #5f7068 !important;
+
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+
+  line-height: 1.55 !important;
+}
+
+
+/* Same subtle hover as Awards Details / Contributions */
+.single-experience-info-card:hover,
+.experience-content .experience-description:hover,
+.volunteer-content > p:not(.experience-place):hover {
+  transform: translateY(-1px) !important;
+
+  box-shadow:
+    0 16px 34px rgba(42, 62, 54, 0.09) !important;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  #academic .experience-card,
+  #industry .experience-card,
+  .volunteer-section .volunteer-card {
+    display: block !important;
+  }
+
+  #academic .experience-period,
+  #industry .experience-period,
+  .volunteer-section .volunteer-date {
+    width: fit-content !important;
+    min-width: auto !important;
+    max-width: 100% !important;
+
+    padding: 9px 14px !important;
+
+    margin-bottom: 14px !important;
+
+    white-space: nowrap !important;
+
+    font-size: 0.82rem !important;
+  }
+
+  .single-experience-info-card,
+  .experience-content .experience-description,
+  .volunteer-content > p:not(.experience-place) {
+    width: 100% !important;
+    box-sizing: border-box !important;
+
+    padding: 14px 15px !important;
+  }
+}
