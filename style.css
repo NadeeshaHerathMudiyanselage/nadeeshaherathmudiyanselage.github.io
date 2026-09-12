@@ -7811,3 +7811,100 @@ body.modal-open {
   color: #2d5570 !important;
   text-decoration: underline !important;
 }
+
+/* =========================================
+   INLINE FOOTER SCIENTIST
+   ========================================= */
+
+.site-footer {
+  padding: 18px 20px;
+  text-align: center;
+  color: #708078;
+  font-size: 0.92rem;
+}
+
+.footer-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.footer-inline p {
+  margin: 0;
+}
+
+/* scientist next to text */
+.scientist-inline {
+  width: 42px;
+  height: 48px;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.scientist-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  transform-origin: center bottom;
+  animation: scientist-bob 0.55s ease-in-out infinite alternate;
+}
+
+/* arm animation */
+.arm-left {
+  transform-origin: 36px 78px;
+  animation: arm-left-swing 0.55s ease-in-out infinite alternate;
+}
+
+.arm-right {
+  transform-origin: 88px 78px;
+  animation: arm-right-swing 0.55s ease-in-out infinite alternate-reverse;
+}
+
+/* leg animation */
+.leg-left {
+  transform-origin: 53px 110px;
+  animation: leg-left-swing 0.55s ease-in-out infinite alternate;
+}
+
+.leg-right {
+  transform-origin: 71px 110px;
+  animation: leg-right-swing 0.55s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes scientist-bob {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-2px); }
+}
+
+@keyframes arm-left-swing {
+  0% { transform: rotate(10deg); }
+  100% { transform: rotate(-10deg); }
+}
+
+@keyframes arm-right-swing {
+  0% { transform: rotate(-10deg); }
+  100% { transform: rotate(10deg); }
+}
+
+@keyframes leg-left-swing {
+  0% { transform: rotate(10deg); }
+  100% { transform: rotate(-10deg); }
+}
+
+@keyframes leg-right-swing {
+  0% { transform: rotate(-10deg); }
+  100% { transform: rotate(10deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scientist-svg,
+  .arm-left,
+  .arm-right,
+  .leg-left,
+  .leg-right {
+    animation: none !important;
+  }
+}
