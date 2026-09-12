@@ -7225,3 +7225,134 @@ body.modal-open {
 .home-timeline article:last-child {
   border-bottom: none !important;
 }
+
+/* =========================================================
+   INDEX PAGE - REMOVE LEFT PROFILE CARD VISUALLY
+   KEEP ALL CONTENT
+   ========================================================= */
+
+
+/* Main left-side profile container */
+.home-fixed-body .home-shell .profile-card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+
+  padding: 12px 0 !important;
+
+  min-height: auto !important;
+  overflow: visible !important;
+}
+
+
+/* Left sticky panel itself */
+.home-fixed-body .profile-panel {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+/* -----------------------------------------
+   PROFILE PHOTO
+   Remove card/frame around photo
+   ----------------------------------------- */
+
+.home-fixed-body .profile-photo-wrap {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+
+  padding: 0 !important;
+
+  /* keep actual photo shape */
+  overflow: hidden !important;
+}
+
+
+/* Keep photo itself unchanged */
+.home-fixed-body .profile-photo {
+  display: block !important;
+}
+
+
+/* -----------------------------------------
+   LOCATION / UNIVERSITY / EMAIL
+   No card styling
+   ----------------------------------------- */
+
+.home-fixed-body .profile-info-list,
+.home-fixed-body .profile-info-list div {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+
+/* -----------------------------------------
+   SOCIAL / ACADEMIC LINKS
+   Remove individual mini-card appearance
+   ----------------------------------------- */
+
+.home-fixed-body .social-icon-links a {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+
+  padding: 7px 0 !important;
+}
+
+
+/* Remove hover card effect */
+.home-fixed-body .social-icon-links a:hover {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+
+  transform: none !important;
+}
+
+
+/* -----------------------------------------
+   OTHER PROFILE LINK PILLS
+   Make them simple text links
+   ----------------------------------------- */
+
+.home-fixed-body .profile-links a {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+
+  border-radius: 0 !important;
+
+  padding: 5px 0 !important;
+
+  margin-right: 14px !important;
+}
+
+
+/* Simple hover instead of card/pill */
+.home-fixed-body .profile-links a:hover {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+
+  transform: none !important;
+
+  color: #2d5570 !important;
+}
+
+
+/* Keep some clean spacing between profile sections */
+.home-fixed-body .profile-info-list {
+  margin-top: 18px !important;
+  margin-bottom: 20px !important;
+}
+
+.home-fixed-body .profile-links {
+  margin-top: 6px !important;
+  margin-bottom: 18px !important;
+}
