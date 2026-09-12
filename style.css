@@ -6834,3 +6834,82 @@ body.modal-open {
   text-align: center !important;
 }
 }
+
+
+/* =========================================================
+   EXPERIENCE PAGE - AWARDS PALETTE
+   ========================================================= */
+
+
+/* -----------------------------------------
+   1. ACADEMIC & RESEARCH EXPERIENCE
+   Same family as Academic Distinction
+   ----------------------------------------- */
+
+#academic .experience-card,
+#academic .experience-card.academic-card {
+  background: linear-gradient(
+    135deg,
+    #fbf8ff,
+    #f7fbf8
+  ) !important;
+
+  border: 1px solid #ddd1ff !important;
+}
+
+
+/* Academic date band */
+#academic .experience-period {
+  background: #f0eaff !important;
+  color: #59468a !important;
+  border: 1px solid #ddd1ff !important;
+}
+
+
+/* -----------------------------------------
+   2. INDUSTRY EXPERIENCE
+   Same family as Scholarship
+   ----------------------------------------- */
+
+#industry .experience-card,
+#industry .experience-card.industry-card {
+  background: linear-gradient(
+    135deg,
+    #fffaf0,
+    #f5fbf7
+  ) !important;
+
+  border: 1px solid #ead8ad !important;
+}
+
+
+/* Industry date band */
+#industry .experience-period {
+  background: #fff3d4 !important;
+  color: #755110 !important;
+  border: 1px solid #ead28c !important;
+}
+
+
+/* -----------------------------------------
+   3. VOLUNTEER WORKS & COMMUNITY ENGAGEMENT
+   Same family as Research Award
+   ----------------------------------------- */
+
+.volunteer-section .volunteer-card {
+  background: linear-gradient(
+    135deg,
+    #f7fbff,
+    #f8fbf9
+  ) !important;
+
+  border: 1px solid #cfe4fb !important;
+}
+
+
+/* Volunteer date band */
+.volunteer-section .volunteer-date {
+  background: #e9f3ff !important;
+  color: #24567a !important;
+  border: 1px solid #cfe4fb !important;
+}
