@@ -8674,3 +8674,58 @@ body.modal-open {
     margin-bottom: 10px !important;
   }
 }
+
+/* =========================================================
+   HOMEPAGE RIGHT SIDE — FORCE TIGHTER SECTION SPACING
+   About Me / Research Interests / News / Let's Connect
+   ========================================================= */
+
+.home-fixed-body .home-content {
+  display: flex !important;
+  flex-direction: column !important;
+
+  justify-content: flex-start !important;
+  align-items: stretch !important;
+
+  gap: 18px !important;
+
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+
+/* Remove large spacing coming from individual sections */
+.home-fixed-body .home-content > section {
+  margin: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+
+/* Section headings */
+.home-fixed-body .home-content > section > h2 {
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+
+/* Remove bottom margin from last element inside each section */
+.home-fixed-body .home-content > section > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+
+  .home-fixed-body .home-content {
+    gap: 14px !important;
+  }
+
+  .home-fixed-body .home-content > section > h2 {
+    margin-bottom: 8px !important;
+  }
+}
