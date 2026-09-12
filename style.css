@@ -7149,3 +7149,41 @@ body.modal-open {
     padding: 14px 15px !important;
   }
 }
+
+/* =========================================
+   INDEX PAGE - REMOVE VISUAL CARD EFFECT
+   ========================================= */
+
+/* Main homepage sections */
+.home-section,
+#about,
+#education,
+#research,
+#publications,
+#experience,
+#skills {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+/* Individual information cards */
+.home-section article,
+.home-timeline article {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+/* Keep separation between individual entries */
+.home-timeline article {
+  padding: 22px 0 !important;
+  border-bottom: 1px solid rgba(220, 228, 223, 0.9) !important;
+}
+
+/* Remove final divider */
+.home-timeline article:last-child {
+  border-bottom: none !important;
+}
