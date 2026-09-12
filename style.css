@@ -7935,3 +7935,91 @@ body.modal-open {
   object-fit: contain !important;
   vertical-align: middle !important;
 }
+
+/* =========================================================
+   FOOTER - SCIENTIST WALKING BEFORE COPYRIGHT
+   ========================================================= */
+
+.site-footer {
+  padding: 16px 20px 20px !important;
+  text-align: center !important;
+  color: #708078 !important;
+  font-size: 0.88rem !important;
+}
+
+.footer-inline {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  flex-wrap: wrap !important;
+}
+
+/* copyright text */
+.footer-copy {
+  line-height: 1.2 !important;
+}
+
+/* small invisible walking area before the copyright text */
+.scientist-track {
+  position: relative !important;
+  width: 58px !important;
+  height: 52px !important;
+  overflow: hidden !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+/* girl image */
+.footer-scientist {
+  position: absolute !important;
+  bottom: 0 !important;
+  right: -6px !important;
+
+  width: 36px !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: contain !important;
+
+  transform-origin: center bottom !important;
+
+  animation: footer-walk-left 1.8s ease-in-out infinite alternate !important;
+}
+
+/* walking illusion: move right -> left + tiny bounce + slight tilt */
+@keyframes footer-walk-left {
+  0% {
+    transform: translateX(14px) translateY(0) rotate(1.5deg);
+  }
+  20% {
+    transform: translateX(8px) translateY(-2px) rotate(-1deg);
+  }
+  40% {
+    transform: translateX(2px) translateY(0) rotate(1deg);
+  }
+  60% {
+    transform: translateX(-4px) translateY(-2px) rotate(-1deg);
+  }
+  80% {
+    transform: translateX(-10px) translateY(0) rotate(1deg);
+  }
+  100% {
+    transform: translateX(-16px) translateY(-2px) rotate(-1.5deg);
+  }
+}
+
+/* Mobile */
+@media (max-width: 520px) {
+  .site-footer {
+    font-size: 0.82rem !important;
+  }
+
+  .scientist-track {
+    width: 50px !important;
+    height: 46px !important;
+  }
+
+  .footer-scientist {
+    width: 32px !important;
+  }
+}
