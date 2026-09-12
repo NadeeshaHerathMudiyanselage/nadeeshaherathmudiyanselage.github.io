@@ -7908,3 +7908,30 @@ body.modal-open {
     animation: none !important;
   }
 }
+
+.site-footer {
+  padding: 16px 20px 20px !important;
+  text-align: center !important;
+  color: #708078 !important;
+  font-size: 0.88rem !important;
+}
+
+.footer-inline {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  flex-wrap: wrap !important;
+}
+
+.footer-inline span {
+  line-height: 1 !important;
+}
+
+.footer-scientist {
+  width: 42px !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: contain !important;
+  vertical-align: middle !important;
+}
