@@ -8023,3 +8023,82 @@ body.modal-open {
     width: 32px !important;
   }
 }
+
+/* Footer aligned bottom-right */
+
+.site-footer {
+  width: 100% !important;
+  padding: 16px 28px 20px !important;
+
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+
+  text-align: right !important;
+
+  color: #708078 !important;
+  font-size: 0.88rem !important;
+}
+
+.footer-inline {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+
+  gap: 10px !important;
+
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+.footer-copy {
+  white-space: nowrap !important;
+}
+
+/* girl stays on the RIGHT of the copyright */
+.scientist-track {
+  position: relative !important;
+
+  width: 58px !important;
+  height: 52px !important;
+
+  display: inline-block !important;
+  overflow: hidden !important;
+
+  flex: 0 0 58px !important;
+}
+
+.footer-scientist {
+  position: absolute !important;
+  bottom: 0 !important;
+  right: 0 !important;
+
+  width: 38px !important;
+  height: auto !important;
+
+  object-fit: contain !important;
+}
+
+
+/* Mobile */
+@media (max-width: 520px) {
+
+  .site-footer {
+    padding: 14px 18px 18px !important;
+    font-size: 0.78rem !important;
+  }
+
+  .footer-inline {
+    gap: 7px !important;
+  }
+
+  .scientist-track {
+    width: 48px !important;
+    height: 44px !important;
+    flex-basis: 48px !important;
+  }
+
+  .footer-scientist {
+    width: 32px !important;
+  }
+}
