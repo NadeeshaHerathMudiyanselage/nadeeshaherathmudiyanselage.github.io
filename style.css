@@ -6730,3 +6730,37 @@ body.modal-open {
     padding: 14px 15px !important;
   }
 }
+
+/* =========================================================
+   CERTIFICATIONS SECTION - DIFFERENT TAG COLORS
+   ========================================================= */
+
+/* Certification tag - Blue */
+#certifications .award-type.certificate {
+  background: #e9f3ff !important;
+  color: #24567a !important;
+  border: 1px solid #cde1f5 !important;
+}
+
+/* Training tag - Soft Orange / Gold */
+#certifications .award-type.training {
+  background: #fff3dc !important;
+  color: #76571e !important;
+  border: 1px solid #ead8ad !important;
+}
+
+
+/* Keep both tags same dimensions/style */
+#certifications .award-type.certificate,
+#certifications .award-type.training {
+  display: inline-flex !important;
+  align-items: center !important;
+  width: fit-content !important;
+
+  padding: 6px 11px !important;
+  border-radius: 999px !important;
+
+  font-size: 0.74rem !important;
+  font-weight: 850 !important;
+  line-height: 1.2 !important;
+}
