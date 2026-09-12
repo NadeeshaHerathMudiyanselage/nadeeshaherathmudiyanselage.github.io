@@ -8629,3 +8629,48 @@ body.modal-open {
     hyphens: none !important;
   }
 }
+
+/* =========================================================
+   HOMEPAGE SECTION SPACING
+   About Me / Research Interests / News / Let's Connect
+   ========================================================= */
+
+.home-fixed-body .home-content section {
+  margin-top: 0 !important;
+  margin-bottom: 22px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* headings */
+.home-fixed-body .home-content section h2 {
+  margin-top: 0 !important;
+  margin-bottom: 12px !important;
+}
+
+/* remove unnecessary space after last content item */
+.home-fixed-body .home-content section > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* specifically control the gap between consecutive sections */
+.home-fixed-body .home-content section + section {
+  margin-top: 22px !important;
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+
+  .home-fixed-body .home-content section {
+    margin-bottom: 18px !important;
+  }
+
+  .home-fixed-body .home-content section + section {
+    margin-top: 18px !important;
+  }
+
+  .home-fixed-body .home-content section h2 {
+    margin-bottom: 10px !important;
+  }
+}
