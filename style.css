@@ -6763,4 +6763,74 @@ body.modal-open {
   font-size: 0.74rem !important;
   font-weight: 850 !important;
   line-height: 1.2 !important;
+
+  /* =========================================================
+   MEMBERSHIPS SECTION
+   ========================================================= */
+
+
+/* Current Membership - Blue */
+#memberships .award-type.membership {
+  background: #f0f5ff !important;
+  color: #324d78 !important;
+  border: 1px solid #d4e0fb !important;
+}
+
+
+/* Former Membership - Soft Rose */
+#memberships .award-type.former-membership {
+  background: #fff0f4 !important;
+  color: #813d55 !important;
+  border: 1px solid #f1ced8 !important;
+}
+
+
+/* Keep both membership tags consistent */
+#memberships .award-type.membership,
+#memberships .award-type.former-membership {
+  display: inline-flex !important;
+  align-items: center !important;
+
+  width: fit-content !important;
+
+  padding: 6px 11px !important;
+  border-radius: 999px !important;
+
+  font-size: 0.74rem !important;
+  font-weight: 850 !important;
+  line-height: 1.2 !important;
+}
+
+
+/* =========================================================
+   MEMBERSHIP YEAR BADGE
+   Same font size as Awards & Scholarships
+   ========================================================= */
+
+#memberships .award-year {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  /* enough width for 2016-2020 in one line */
+  width: auto !important;
+  min-width: 92px !important;
+  max-width: none !important;
+
+  padding: 8px 12px !important;
+
+  border-radius: 16px !important;
+
+  background: #edf6f1 !important;
+  color: #3f6f58 !important;
+  border: 1px solid #d0e6d8 !important;
+
+  /* same as Awards year */
+  font-size: 0.82rem !important;
+  font-weight: 900 !important;
+  line-height: 1.2 !important;
+
+  white-space: nowrap !important;
+  text-align: center !important;
+}
 }
