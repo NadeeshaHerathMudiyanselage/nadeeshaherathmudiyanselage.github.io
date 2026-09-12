@@ -7800,3 +7800,14 @@ body.modal-open {
     padding-right: 12px !important;
   }
 }
+
+.home-fixed-body .profile-info-list a {
+  color: #425d52 !important;
+  text-decoration: none !important;
+  font-weight: 720 !important;
+}
+
+.home-fixed-body .profile-info-list a:hover {
+  color: #2d5570 !important;
+  text-decoration: underline !important;
+}
