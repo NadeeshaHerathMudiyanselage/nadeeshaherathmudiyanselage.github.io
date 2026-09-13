@@ -9083,3 +9083,40 @@ body.modal-open {
   }
 
 }
+
+/* =========================================================
+   HOMEPAGE SECTION HEADINGS — CLEAN ACADEMIC STYLE
+   ========================================================= */
+
+.home-fixed-body
+.home-scroll-content
+> .home-section
+> h2 {
+
+  font-size: 1.12rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+
+  letter-spacing: -0.01em !important;
+
+  color: #29483a !important;
+
+  margin-top: 0 !important;
+  margin-bottom: 9px !important;
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+
+  .home-fixed-body
+  .home-scroll-content
+  > .home-section
+  > h2 {
+
+    font-size: 1.05rem !important;
+    line-height: 1.3 !important;
+
+    margin-bottom: 8px !important;
+  }
+}
