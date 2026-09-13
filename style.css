@@ -9304,3 +9304,51 @@ body.modal-open {
   object-position: center !important;
   border-radius: 50% !important;
 }
+
+/* =========================================================
+   PROFILE PHOTO — ROUND + BETTER HEAD POSITION
+   ========================================================= */
+
+.home-fixed-body .profile-photo-wrap {
+  width: 210px !important;
+  height: 210px !important;
+
+  margin: 0 auto 22px !important;
+  padding: 0 !important;
+
+  border-radius: 50% !important;
+  overflow: hidden !important;
+
+  background: #e7e7e7 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.home-fixed-body .profile-photo {
+  width: 100% !important;
+  height: 100% !important;
+
+  object-fit: cover !important;
+
+  /* move image slightly upward so head is not cut */
+  object-position: center 18% !important;
+
+  border-radius: 50% !important;
+  display: block !important;
+}
+
+
+/* Mobile */
+@media (max-width: 520px) {
+  .home-fixed-body .profile-photo-wrap {
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 50% !important;
+  }
+
+  .home-fixed-body .profile-photo {
+    object-fit: cover !important;
+    object-position: center 18% !important;
+    border-radius: 50% !important;
+  }
+}
