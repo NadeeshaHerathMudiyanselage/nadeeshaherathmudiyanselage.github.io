@@ -9120,3 +9120,35 @@ body.modal-open {
     margin-bottom: 8px !important;
   }
 }
+
+/* =========================================================
+   HOMEPAGE SECTION HEADINGS
+   About Me / Research Interests / News / Let's connect
+   ========================================================= */
+
+.home-fixed-body .home-scroll-content .home-section h2 {
+  font-size: 1.30rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+
+  /* original blue colour */
+  color: #2d5570 !important;
+
+  letter-spacing: -0.025em !important;
+
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+
+  .home-fixed-body .home-scroll-content .home-section h2 {
+    font-size: 1.20rem !important;
+    line-height: 1.25 !important;
+    color: #2d5570 !important;
+    margin-bottom: 8px !important;
+  }
+
+}
