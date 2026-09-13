@@ -384,3 +384,141 @@ projectStatus?.addEventListener("change", filterProjects);
 projectCategory?.addEventListener("change", filterProjects);
 projectSort?.addEventListener("change", filterProjects);
 filterProjects();
+
+/* =========================================================
+   DAY / NIGHT THEME SWITCHER
+   ========================================================= */
+
+(function () {
+
+  const root = document.documentElement;
+
+  // Use saved theme if available.
+  // Otherwise use the visitor's system preference.
+  const savedTheme = localStorage.getItem("site-theme");
+
+  const systemPrefersDark = window.matchMedia(
+    "(prefers-color-scheme: dark)"
+  ).matches;
+
+  const startingTheme =
+    savedTheme || (systemPrefersDark ? "dark" : "light");
+
+  root.setAttribute("data-theme", startingTheme);
+
+
+  function createThemeToggle() {
+
+    const topbars = document.querySelectorAll(".topbar");
+
+    topbars.forEach((topbar) => {
+
+      if (topbar.querySelector(".theme-toggle")) return;
+
+      const nav = topbar.querySelector("nav");
+      const menuButton = topbar.querySelector(".menu-btn");
+
+      /* container for theme + mobile menu */
+      const controls = document.createElement("div");
+      controls.className = "header-controls";
+
+
+      /* theme button */
+      const themeButton = document.createElement("button");
+
+      themeButton.type = "button";
+      themeButton.className = "theme-toggle";
+
+      controls.appendChild(themeButton);
+
+
+      /* move hamburger into same controls area */
+      if (menuButton) {
+        controls.appendChild(menuButton);
+      }
+
+
+      /* put controls at the far right */
+      if (nav) {
+        topbar.appendChild(controls);
+      } else {
+        topbar.appendChild(controls);
+      }
+
+
+      function updateButton() {
+
+        const currentTheme =
+          root.getAttribute("data-theme");
+
+        if (currentTheme === "dark") {
+
+          themeButton.innerHTML =
+            '<span class="theme-icon">☀️</span>';
+
+          themeButton.setAttribute(
+            "aria-label",
+            "Switch to day mode"
+          );
+
+          themeButton.title = "Day mode";
+
+        } else {
+
+          themeButton.innerHTML =
+            '<span class="theme-icon">🌙</span>';
+
+          themeButton.setAttribute(
+            "aria-label",
+            "Switch to night mode"
+          );
+
+          themeButton.title = "Night mode";
+        }
+      }
+
+
+      updateButton();
+
+
+      themeButton.addEventListener("click", () => {
+
+        const currentTheme =
+          root.getAttribute("data-theme");
+
+        const newTheme =
+          currentTheme === "dark"
+            ? "light"
+            : "dark";
+
+        root.setAttribute(
+          "data-theme",
+          newTheme
+        );
+
+        localStorage.setItem(
+          "site-theme",
+          newTheme
+        );
+
+        updateButton();
+      });
+
+    });
+  }
+
+
+  if (document.readyState === "loading") {
+
+    document.addEventListener(
+      "DOMContentLoaded",
+      createThemeToggle
+    );
+
+  } else {
+
+    createThemeToggle();
+
+  }
+
+})();
