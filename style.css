@@ -8787,3 +8787,108 @@ body.modal-open {
     font-size: 0.88rem !important;
   }
 }
+
+/* =========================================================
+   FINAL FIX — HOMEPAGE SECTION SPACING
+   About Me / Research Interests / News / Let's Connect
+   ========================================================= */
+
+/* Actual container used in index.html */
+.home-fixed-body .home-scroll-content {
+  display: grid !important;
+
+  /* space BETWEEN sections */
+  gap: 12px !important;
+
+  align-content: start !important;
+  justify-content: stretch !important;
+
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+
+/* Remove the old large 34px section padding */
+.home-fixed-body .home-scroll-content > .home-section {
+  margin: 0 !important;
+
+  /* small controlled spacing inside each section */
+  padding: 10px 0 !important;
+
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+
+/* About Me should not have unnecessary top space */
+.home-fixed-body .home-scroll-content > .home-section:first-child {
+  padding-top: 0 !important;
+}
+
+
+/* Headings */
+.home-fixed-body .home-scroll-content > .home-section > h2 {
+  margin: 0 0 10px 0 !important;
+}
+
+
+/* Paragraphs */
+.home-fixed-body .home-scroll-content > .home-section > p {
+  margin-top: 0 !important;
+  margin-bottom: 9px !important;
+}
+
+
+/* Last paragraph/item should not add extra bottom space */
+.home-fixed-body
+.home-scroll-content
+> .home-section
+> *:last-child {
+  margin-bottom: 0 !important;
+}
+
+
+/* Research-interest chips */
+.home-fixed-body .home-chip-grid {
+  margin-top: 8px !important;
+}
+
+
+/* News container */
+.home-fixed-body .home-news-scroll {
+  margin-top: 4px !important;
+}
+
+
+/* Let's Connect */
+.home-fixed-body .closing-section {
+  margin-top: 0 !important;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .home-fixed-body .home-scroll-content {
+    gap: 8px !important;
+  }
+
+  .home-fixed-body .home-scroll-content > .home-section {
+    padding: 8px 0 !important;
+  }
+
+  .home-fixed-body
+  .home-scroll-content
+  > .home-section
+  > h2 {
+    margin-bottom: 8px !important;
+  }
+
+  .home-fixed-body .home-chip-grid {
+    margin-top: 6px !important;
+  }
+
+}
