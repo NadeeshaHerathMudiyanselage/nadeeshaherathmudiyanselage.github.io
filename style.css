@@ -9151,4 +9151,33 @@ body.modal-open {
     margin-bottom: 8px !important;
   }
 
+  /* =========================================================
+   ROUND PROFILE PHOTO — SHOW FULL IMAGE
+   ========================================================= */
+
+.home-fixed-body .profile-photo-wrap {
+  width: 190px !important;
+  height: 190px !important;
+
+  border-radius: 50% !important;
+
+  overflow: hidden !important;
+
+  margin: 0 auto 22px !important;
+
+  background: #ffffff !important;
+}
+
+.home-fixed-body .profile-photo {
+  width: 100% !important;
+  height: 100% !important;
+
+  object-fit: contain !important;
+  object-position: center !important;
+
+  border-radius: 50% !important;
+
+  display: block !important;
+}
+
 }
