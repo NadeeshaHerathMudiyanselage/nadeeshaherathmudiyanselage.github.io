@@ -9232,3 +9232,61 @@ body.modal-open {
     object-fit: contain !important;
   }
 }
+
+/* =========================================================
+   FINAL ROUND PROFILE PHOTO — KEEP FULL ORIGINAL PHOTO
+   ========================================================= */
+
+.home-fixed-body .profile-photo-wrap {
+  width: 205px !important;
+  height: 205px !important;
+
+  min-width: 205px !important;
+  min-height: 205px !important;
+
+  margin: 0 auto 22px !important;
+  padding: 0 !important;
+
+  border-radius: 50% !important;
+  overflow: hidden !important;
+
+  /* match the light grey background of the photo */
+  background: #e4e4e4 !important;
+
+  border: none !important;
+  box-shadow: none !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
+.home-fixed-body .profile-photo {
+  width: 100% !important;
+  height: 100% !important;
+
+  /* IMPORTANT — show the complete original photo */
+  object-fit: contain !important;
+  object-position: center center !important;
+
+  border-radius: 0 !important;
+
+  display: block !important;
+}
+
+
+/* Mobile */
+@media (max-width: 520px) {
+
+  .home-fixed-body .profile-photo-wrap {
+    width: 175px !important;
+    height: 175px !important;
+
+    min-width: 175px !important;
+    min-height: 175px !important;
+
+    border-radius: 50% !important;
+  }
+
+}
