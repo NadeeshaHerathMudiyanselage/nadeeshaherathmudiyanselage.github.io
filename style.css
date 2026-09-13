@@ -9352,3 +9352,80 @@ body.modal-open {
     border-radius: 50% !important;
   }
 }
+
+/* =========================================================
+   HOMEPAGE FINAL ALIGNMENT
+   Profile links + clean News section
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   MOVE CONTACT + SOCIAL LINKS A LITTLE TOWARD THE CENTRE
+   --------------------------------------------------------- */
+
+.home-fixed-body .profile-info-list,
+.home-fixed-body .social-icon-links {
+  width: 330px !important;
+  max-width: 100% !important;
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+  /* slightly more toward the middle */
+  transform: translateX(34px) !important;
+}
+
+
+/* Keep contact and social rows aligned with each other */
+.home-fixed-body .profile-info-list div,
+.home-fixed-body .social-icon-links a {
+  grid-template-columns: 30px minmax(0, 1fr) !important;
+  column-gap: 12px !important;
+
+  text-align: left !important;
+}
+
+
+/* ---------------------------------------------------------
+   NEWS — REMOVE THE AWKWARD PARTIAL NEXT ITEM
+   --------------------------------------------------------- */
+
+/* Let the page itself scroll instead of cutting a news item */
+.home-fixed-body .home-news-scroll {
+  max-height: none !important;
+  height: auto !important;
+
+  overflow-y: visible !important;
+
+  padding-right: 0 !important;
+  margin-top: 6px !important;
+}
+
+
+/* News rows */
+.home-fixed-body .home-news-list li {
+  width: 100% !important;
+
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+}
+
+
+/* ---------------------------------------------------------
+   MOBILE
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .home-fixed-body .profile-info-list,
+  .home-fixed-body .social-icon-links {
+    transform: translateX(12px) !important;
+  }
+
+  .home-fixed-body .home-news-scroll {
+    max-height: none !important;
+    height: auto !important;
+    overflow-y: visible !important;
+  }
+
+}
