@@ -9181,3 +9181,54 @@ body.modal-open {
 }
 
 }
+
+/* =========================================================
+   FINAL PROFILE PHOTO — ROUND ON DESKTOP + MOBILE
+   SHOW FULL PERSON
+   ========================================================= */
+
+.home-fixed-body .profile-photo-wrap {
+  width: 190px !important;
+  height: 190px !important;
+
+  margin: 0 auto 22px !important;
+  padding: 0 !important;
+
+  border-radius: 50% !important;
+
+  overflow: hidden !important;
+
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.home-fixed-body .profile-photo {
+  width: 100% !important;
+  height: 100% !important;
+
+  object-fit: contain !important;
+  object-position: center !important;
+
+  border-radius: 50% !important;
+
+  display: block !important;
+}
+
+
+/* Mobile */
+@media (max-width: 520px) {
+
+  .home-fixed-body .profile-photo-wrap {
+    width: 165px !important;
+    height: 165px !important;
+
+    border-radius: 50% !important;
+  }
+
+  .home-fixed-body .profile-photo {
+    border-radius: 50% !important;
+
+    object-fit: contain !important;
+  }
+}
