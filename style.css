@@ -10217,3 +10217,645 @@ html[data-theme="dark"] footer,
 html[data-theme="dark"] .site-footer {
   color: #97aaa2 !important;
 }
+
+/* =========================================================
+   FINAL DARK MODE CLEANUP
+   Exact selectors used across this website
+   ========================================================= */
+
+html[data-theme="dark"] {
+  --night-bg: #101815;
+  --night-card: #18231f;
+  --night-card-2: #1d2a25;
+  --night-card-3: #22312b;
+
+  --night-border: #344a40;
+
+  --night-heading: #b9daf0;
+  --night-text: #c6d4cd;
+  --night-muted: #9fb2a9;
+
+  --night-green: #a6d1bc;
+  --night-gold: #e5c783;
+  --night-purple: #cbbcf3;
+}
+
+
+/* =========================================================
+   EDUCATION
+   ========================================================= */
+
+/* Main education cards */
+html[data-theme="dark"] body
+.education-section .detailed-education-card,
+
+html[data-theme="dark"] body
+.education-section .education-card {
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--night-card),
+      #141d1a
+    ) !important;
+
+  border-color: var(--night-border) !important;
+
+  box-shadow:
+    0 14px 34px rgba(0,0,0,.22) !important;
+}
+
+
+/* Specialization / education information boxes */
+html[data-theme="dark"] body
+.education-section .education-detail-grid > div,
+
+html[data-theme="dark"] body
+.education-section .courses-followed-box,
+
+html[data-theme="dark"] body
+.education-section .thesis-title-box,
+
+html[data-theme="dark"] body
+.education-section .inside-thesis-title,
+
+html[data-theme="dark"] body
+.education-section .single-thesis-info-card {
+
+  background:
+    linear-gradient(
+      135deg,
+      #1d2924,
+      #20271f
+    ) !important;
+
+  border-color: #3a5046 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* Education text */
+html[data-theme="dark"] body
+.education-section .education-content h3 {
+  color: var(--night-heading) !important;
+}
+
+html[data-theme="dark"] body
+.education-section .education-content p,
+
+html[data-theme="dark"] body
+.education-section .education-detail-grid span,
+
+html[data-theme="dark"] body
+.education-section .courses-followed-box p,
+
+html[data-theme="dark"] body
+.education-section .thesis-title-box p {
+
+  color: var(--night-text) !important;
+}
+
+
+/* =========================================================
+   PUBLICATIONS
+   ========================================================= */
+
+/* Research keyword panel */
+html[data-theme="dark"] body
+.publications-hero .keyword-section {
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--night-card),
+      #19241f
+    ) !important;
+
+  border: 1px solid var(--night-border) !important;
+
+  box-shadow:
+    0 14px 32px rgba(0,0,0,.18) !important;
+}
+
+
+/* Research Keywords heading */
+html[data-theme="dark"] body
+.publications-hero .keyword-section h2 {
+
+  color: var(--night-heading) !important;
+}
+
+
+/* keyword chips */
+html[data-theme="dark"] body
+.keyword-section .keyword-chip {
+
+  background: #22332c !important;
+
+  color: #b8d8c8 !important;
+
+  border: 1px solid #405a4e !important;
+}
+
+
+/* 2026 / 2025 year bars */
+html[data-theme="dark"] body
+.publication-year-section .publication-year-heading {
+
+  background:
+    linear-gradient(
+      135deg,
+      #1b2923,
+      #202a24
+    ) !important;
+
+  border: 1px solid #3b5147 !important;
+
+  box-shadow: none !important;
+}
+
+
+html[data-theme="dark"] body
+.publication-year-section .publication-year-heading span {
+
+  color: var(--night-heading) !important;
+}
+
+
+html[data-theme="dark"] body
+.publication-year-section .publication-year-heading em {
+
+  color: var(--night-muted) !important;
+}
+
+
+/* Publication cards */
+html[data-theme="dark"] body
+.publication-year-list .publication-card {
+
+  background:
+    linear-gradient(
+      135deg,
+      #17221e,
+      #121b18
+    ) !important;
+
+  border-color: #33483f !important;
+
+  box-shadow: none !important;
+}
+
+
+/* Publication keywords */
+html[data-theme="dark"] body
+.publication-card .pub-keywords span,
+
+html[data-theme="dark"] body
+.publication-card .publication-keyword,
+
+html[data-theme="dark"] body
+.publication-card .keyword-chip {
+
+  background: #23332c !important;
+
+  color: #b7d8c7 !important;
+
+  border-color: #40594e !important;
+}
+
+
+/* Abstract / citation expanded areas */
+html[data-theme="dark"] body
+.publication-card .abstract-box,
+
+html[data-theme="dark"] body
+.publication-card .citation-box,
+
+html[data-theme="dark"] body
+.publication-card .pub-extra {
+
+  background: #1d2924 !important;
+
+  color: var(--night-text) !important;
+
+  border-color: #3a5146 !important;
+}
+
+
+/* =========================================================
+   EXPERIENCE
+   ========================================================= */
+
+html[data-theme="dark"] body
+#academic .experience-card,
+
+html[data-theme="dark"] body
+#industry .experience-card,
+
+html[data-theme="dark"] body
+.experience-section .experience-card,
+
+html[data-theme="dark"] body
+.volunteer-section .volunteer-card {
+
+  background:
+    linear-gradient(
+      135deg,
+      #18231f,
+      #131c19
+    ) !important;
+
+  border-color: #354b41 !important;
+
+  box-shadow:
+    0 14px 32px rgba(0,0,0,.18) !important;
+}
+
+
+/* Inner description/detail boxes */
+html[data-theme="dark"] body
+.experience-card .single-experience-info-card,
+
+html[data-theme="dark"] body
+.experience-card .experience-description,
+
+html[data-theme="dark"] body
+.volunteer-card .experience-description,
+
+html[data-theme="dark"] body
+.volunteer-card .volunteer-content > p:not(.experience-place) {
+
+  background: #1e2b25 !important;
+
+  border: 1px solid #3b5147 !important;
+
+  color: var(--night-text) !important;
+
+  box-shadow: none !important;
+}
+
+
+html[data-theme="dark"] body
+.experience-content h3,
+
+html[data-theme="dark"] body
+.volunteer-content h3 {
+
+  color: var(--night-heading) !important;
+}
+
+
+html[data-theme="dark"] body
+.experience-place {
+
+  color: #aebfb7 !important;
+}
+
+
+/* =========================================================
+   AWARDS
+   ========================================================= */
+
+html[data-theme="dark"] body
+.awards-section .awards-list .award-card,
+
+html[data-theme="dark"] body
+.awards-section .award-card,
+
+html[data-theme="dark"] body
+.awards-section .certificate-card,
+
+html[data-theme="dark"] body
+.awards-section .membership-card {
+
+  background:
+    linear-gradient(
+      135deg,
+      #18231f,
+      #131c19
+    ) !important;
+
+  border-color: #354b41 !important;
+
+  box-shadow:
+    0 14px 32px rgba(0,0,0,.18) !important;
+}
+
+
+/* Details / Contributions */
+html[data-theme="dark"] body
+.awards-section .award-duty-card {
+
+  background:
+    linear-gradient(
+      135deg,
+      #1e2b25,
+      #25281f
+    ) !important;
+
+  border-color: #405348 !important;
+
+  box-shadow: none !important;
+}
+
+
+html[data-theme="dark"] body
+.awards-section .award-duty-card strong {
+
+  color: #dbe7e1 !important;
+}
+
+
+html[data-theme="dark"] body
+.awards-section .award-duty-card p {
+
+  color: #b3c3bb !important;
+}
+
+
+html[data-theme="dark"] body
+.awards-section .award-content h3 {
+
+  color: var(--night-heading) !important;
+}
+
+
+/* =========================================================
+   TALKS / PRESENTATIONS
+   ========================================================= */
+
+html[data-theme="dark"] body
+.talk-card,
+
+html[data-theme="dark"] body
+.talks-section .single-talk-card {
+
+  background:
+    linear-gradient(
+      135deg,
+      #18231f,
+      #131c19
+    ) !important;
+
+  border-color: #354b41 !important;
+}
+
+
+html[data-theme="dark"] body
+.single-talk-info-card {
+
+  background: #1d2a24 !important;
+
+  border-color: #3a5046 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* =========================================================
+   TEACHING
+   ========================================================= */
+
+html[data-theme="dark"] body
+.teaching-course-card {
+
+  background:
+    linear-gradient(
+      135deg,
+      #18231f,
+      #131c19
+    ) !important;
+
+  border-color: #354b41 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* =========================================================
+   SKILLS
+   ========================================================= */
+
+/* Main category cards */
+html[data-theme="dark"] body
+.skills-page-grid .skill-category-card,
+
+html[data-theme="dark"] body
+.skills-page-grid .wide-card {
+
+  background:
+    linear-gradient(
+      135deg,
+      #18231f,
+      #131c19
+    ) !important;
+
+  border-color: #354b41 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* Core skill pills */
+html[data-theme="dark"] body
+.icon-skill-grid > span {
+
+  background: #202f29 !important;
+
+  color: #c2ddd0 !important;
+
+  border: 1px solid #3c5549 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* Software pills */
+html[data-theme="dark"] body
+.icon-skill-grid.tool-grid .tool-pill {
+
+  background: #202f29 !important;
+
+  color: #c2ddd0 !important;
+
+  border: 1px solid #3c5549 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* Keep actual software logos unchanged */
+html[data-theme="dark"] body
+.tool-logo {
+
+  filter: none !important;
+}
+
+
+/* =========================================================
+   BLOG
+   ========================================================= */
+
+html[data-theme="dark"] body
+.blog-card,
+
+html[data-theme="dark"] body
+.blog-grid article {
+
+  background:
+    linear-gradient(
+      135deg,
+      #19251f,
+      #141d1a
+    ) !important;
+
+  border-color: #354b41 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* Do NOT darken blog photographs/images */
+html[data-theme="dark"] body
+.blog-card img,
+
+html[data-theme="dark"] body
+.blog-grid article img {
+
+  filter: none !important;
+}
+
+
+/* blog category pills */
+html[data-theme="dark"] body
+.blog-card .blog-tag,
+
+html[data-theme="dark"] body
+.blog-card .blog-category,
+
+html[data-theme="dark"] body
+.blog-card .read-time {
+
+  background: #22332c !important;
+
+  color: #b7d7c7 !important;
+
+  border-color: #405a4e !important;
+}
+
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+
+html[data-theme="dark"] body
+.contact-page-section .contact-page-card {
+
+  background:
+    linear-gradient(
+      135deg,
+      #18231f,
+      #131c19
+    ) !important;
+
+  border: 1px solid #354b41 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* Contact icons */
+html[data-theme="dark"] body
+.contact-page-section .contact-page-icon {
+
+  background:
+    linear-gradient(
+      135deg,
+      #24342c,
+      #292c21
+    ) !important;
+
+  border-color: #43574c !important;
+}
+
+
+/* Labels */
+html[data-theme="dark"] body
+.contact-page-card span {
+
+  color: #9fb2a8 !important;
+}
+
+
+/* email/location/workplace/link */
+html[data-theme="dark"] body
+.contact-page-card a,
+
+html[data-theme="dark"] body
+.contact-page-card strong {
+
+  color: var(--night-heading) !important;
+}
+
+
+/* =========================================================
+   DATE / YEAR PILLS
+   Keep them visible but dark
+   ========================================================= */
+
+html[data-theme="dark"] body
+.education-year,
+
+html[data-theme="dark"] body
+.experience-period,
+
+html[data-theme="dark"] body
+.volunteer-date,
+
+html[data-theme="dark"] body
+.award-year,
+
+html[data-theme="dark"] body
+.talk-year,
+
+html[data-theme="dark"] body
+.teaching-year {
+
+  background: #20352c !important;
+
+  color: #a9d5bd !important;
+
+  border-color: #426151 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* =========================================================
+   BODY TEXT CONTRAST
+   ========================================================= */
+
+html[data-theme="dark"] body
+.education-section p,
+
+html[data-theme="dark"] body
+.experience-section p,
+
+html[data-theme="dark"] body
+.awards-section p,
+
+html[data-theme="dark"] body
+.teaching-section p,
+
+html[data-theme="dark"] body
+.talks-section p,
+
+html[data-theme="dark"] body
+.skills-page-grid p,
+
+html[data-theme="dark"] body
+.blog-card p {
+
+  color: var(--night-text) !important;
+}
