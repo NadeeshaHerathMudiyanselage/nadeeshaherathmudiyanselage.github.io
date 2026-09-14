@@ -9875,3 +9875,42 @@ html[data-theme="dark"] footer {
   }
 
 }
+
+/* =========================================================
+   DESKTOP HEADER — MOVE NAVIGATION TO THE RIGHT
+   ========================================================= */
+
+@media (min-width: 981px) {
+
+  .topbar {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  /* Name stays on the far left */
+  .topbar .brand {
+    flex: 0 0 auto !important;
+    margin-right: 0 !important;
+    white-space: nowrap !important;
+  }
+
+  /* Push navigation toward the right */
+  .topbar nav {
+    margin-left: auto !important;
+    margin-right: 22px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+
+    gap: 28px !important;
+  }
+
+  /* Theme button stays at far right */
+  .topbar .header-controls {
+    margin-left: 0 !important;
+    flex: 0 0 auto !important;
+  }
+
+}
