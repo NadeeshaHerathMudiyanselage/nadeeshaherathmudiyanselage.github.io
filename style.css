@@ -9914,3 +9914,306 @@ html[data-theme="dark"] footer {
   }
 
 }
+
+/* =========================================================
+   STRONGER NIGHT MODE OVERRIDES
+   Fix light cards still appearing in dark theme
+   ========================================================= */
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+/* ---------------------------------------------------------
+   MAIN PAGE TEXT
+   --------------------------------------------------------- */
+html[data-theme="dark"] body,
+html[data-theme="dark"] p,
+html[data-theme="dark"] li,
+html[data-theme="dark"] span,
+html[data-theme="dark"] label {
+  color: #c7d4ce !important;
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] .section-card h1,
+html[data-theme="dark"] .section-card h2,
+html[data-theme="dark"] .section-card h3,
+html[data-theme="dark"] .publication-card h3,
+html[data-theme="dark"] .experience-card h3,
+html[data-theme="dark"] .award-card h3,
+html[data-theme="dark"] .teaching-course-card h3,
+html[data-theme="dark"] .single-talk-card h3,
+html[data-theme="dark"] .blog-card h3 {
+  color: #b8d8ef !important;
+}
+
+/* muted subtitles / institution names / smaller text */
+html[data-theme="dark"] .eyebrow,
+html[data-theme="dark"] .education-content p,
+html[data-theme="dark"] .publication-meta,
+html[data-theme="dark"] .news-text,
+html[data-theme="dark"] .talk-meta,
+html[data-theme="dark"] .course-meta,
+html[data-theme="dark"] .contact-card p,
+html[data-theme="dark"] .blog-card p,
+html[data-theme="dark"] .skill-group p {
+  color: #aabbb3 !important;
+}
+
+/* ---------------------------------------------------------
+   ALL MAIN LIGHT CARDS -> DARK CARDS
+   --------------------------------------------------------- */
+html[data-theme="dark"] .section-card,
+html[data-theme="dark"] .education-card,
+html[data-theme="dark"] .detailed-education-card,
+html[data-theme="dark"] .publication-card,
+html[data-theme="dark"] .experience-card,
+html[data-theme="dark"] .award-card,
+html[data-theme="dark"] .certificate-card,
+html[data-theme="dark"] .membership-card,
+html[data-theme="dark"] .teaching-course-card,
+html[data-theme="dark"] .single-talk-card,
+html[data-theme="dark"] .talk-card,
+html[data-theme="dark"] .skills-card,
+html[data-theme="dark"] .skill-category-card,
+html[data-theme="dark"] .blog-card,
+html[data-theme="dark"] .contact-card,
+html[data-theme="dark"] .contact-method-card,
+html[data-theme="dark"] .publication-year-block,
+html[data-theme="dark"] .publication-year-header,
+html[data-theme="dark"] .keyword-panel,
+html[data-theme="dark"] .filter-panel,
+html[data-theme="dark"] .research-keywords-box {
+  background: linear-gradient(135deg, #18211e 0%, #141c19 100%) !important;
+  border: 1px solid #31413a !important;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22) !important;
+}
+
+/* ---------------------------------------------------------
+   INNER DETAIL BOXES / CONTRIBUTION BOXES / THESIS BOXES
+   --------------------------------------------------------- */
+html[data-theme="dark"] .courses-followed-box,
+html[data-theme="dark"] .thesis-title-box,
+html[data-theme="dark"] .single-thesis-info-card,
+html[data-theme="dark"] .inside-thesis-title,
+html[data-theme="dark"] .single-experience-info-card,
+html[data-theme="dark"] .single-talk-info-card,
+html[data-theme="dark"] .details-contribution-card,
+html[data-theme="dark"] .experience-detail-card,
+html[data-theme="dark"] .award-detail-card,
+html[data-theme="dark"] .contribution-box,
+html[data-theme="dark"] .publication-abstract,
+html[data-theme="dark"] .contact-card .card-content,
+html[data-theme="dark"] .blog-card .blog-content {
+  background: #1d2824 !important;
+  border: 1px solid #33453d !important;
+  color: #c8d5cf !important;
+}
+
+/* ---------------------------------------------------------
+   DATE / YEAR / LEVEL TAGS
+   --------------------------------------------------------- */
+html[data-theme="dark"] .education-year,
+html[data-theme="dark"] .experience-year,
+html[data-theme="dark"] .award-year,
+html[data-theme="dark"] .membership-year,
+html[data-theme="dark"] .teaching-year,
+html[data-theme="dark"] .talk-year,
+html[data-theme="dark"] .publication-year,
+html[data-theme="dark"] .year-badge {
+  background: #22342d !important;
+  border: 1px solid #406052 !important;
+  color: #a7d3ba !important;
+}
+
+/* category / type badges */
+html[data-theme="dark"] .education-level,
+html[data-theme="dark"] .award-tag,
+html[data-theme="dark"] .certificate-tag,
+html[data-theme="dark"] .membership-tag,
+html[data-theme="dark"] .course-badge,
+html[data-theme="dark"] .talk-tag,
+html[data-theme="dark"] .publication-type-badge {
+  background: #2a312d !important;
+  border: 1px solid #4b5d55 !important;
+  color: #e1d09f !important;
+}
+
+/* purple awards style tags */
+html[data-theme="dark"] .tag-academic-distinction,
+html[data-theme="dark"] .tag-research-award,
+html[data-theme="dark"] .tag-former-membership {
+  background: #2c2540 !important;
+  border: 1px solid #5f4d8e !important;
+  color: #d9cfff !important;
+}
+
+/* scholarship / gold style tags */
+html[data-theme="dark"] .tag-scholarship,
+html[data-theme="dark"] .tag-training {
+  background: #382d1d !important;
+  border: 1px solid #8f6a2f !important;
+  color: #f0d18b !important;
+}
+
+/* ---------------------------------------------------------
+   PUBLICATION PAGE
+   search / filters / keyword chips / publication tags
+   --------------------------------------------------------- */
+html[data-theme="dark"] .publication-search,
+html[data-theme="dark"] .filter-box,
+html[data-theme="dark"] .toolbar-box,
+html[data-theme="dark"] .search-box,
+html[data-theme="dark"] .keyword-box {
+  background: #18211e !important;
+  border: 1px solid #31413a !important;
+}
+
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  background: #16201d !important;
+  color: #e3ece8 !important;
+  border: 1px solid #374a42 !important;
+}
+
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder {
+  color: #92a59c !important;
+}
+
+html[data-theme="dark"] .keyword-chip,
+html[data-theme="dark"] .research-chip,
+html[data-theme="dark"] .skill-pill,
+html[data-theme="dark"] .publication-keyword,
+html[data-theme="dark"] .chip {
+  background: #22302a !important;
+  border: 1px solid #3d5248 !important;
+  color: #b9d9c9 !important;
+}
+
+/* publication action buttons */
+html[data-theme="dark"] .publication-links a,
+html[data-theme="dark"] .btn,
+html[data-theme="dark"] .action-btn {
+  background: #1d2824 !important;
+  border: 1px solid #395046 !important;
+  color: #d9e6e0 !important;
+}
+
+/* ---------------------------------------------------------
+   EXPERIENCE / AWARDS / TALKS / TEACHING
+   --------------------------------------------------------- */
+html[data-theme="dark"] .experience-card p,
+html[data-theme="dark"] .award-card p,
+html[data-theme="dark"] .teaching-course-card p,
+html[data-theme="dark"] .single-talk-card p,
+html[data-theme="dark"] .education-card p {
+  color: #b6c5be !important;
+}
+
+html[data-theme="dark"] .single-experience-info-card strong,
+html[data-theme="dark"] .single-talk-info-card strong,
+html[data-theme="dark"] .single-thesis-info-card strong,
+html[data-theme="dark"] .details-contribution-card strong,
+html[data-theme="dark"] .courses-followed-box strong {
+  color: #dbe9e3 !important;
+}
+
+/* ---------------------------------------------------------
+   SKILLS PAGE
+   --------------------------------------------------------- */
+html[data-theme="dark"] .skill-main-card,
+html[data-theme="dark"] .skill-sub-card,
+html[data-theme="dark"] .skills-category-card,
+html[data-theme="dark"] .tool-card {
+  background: linear-gradient(135deg, #18211e 0%, #141c19 100%) !important;
+  border: 1px solid #31413a !important;
+}
+
+html[data-theme="dark"] .skill-title,
+html[data-theme="dark"] .skills-card h3,
+html[data-theme="dark"] .skills-card h4 {
+  color: #b8d8ef !important;
+}
+
+/* ---------------------------------------------------------
+   BLOG PAGE
+   --------------------------------------------------------- */
+html[data-theme="dark"] .blog-card,
+html[data-theme="dark"] .post-card {
+  background: linear-gradient(135deg, #18211e 0%, #141c19 100%) !important;
+  border: 1px solid #31413a !important;
+}
+
+html[data-theme="dark"] .blog-card .meta,
+html[data-theme="dark"] .post-card .meta {
+  color: #cda96a !important;
+}
+
+html[data-theme="dark"] .blog-card a,
+html[data-theme="dark"] .post-card a {
+  color: #9fd0b3 !important;
+}
+
+/* ---------------------------------------------------------
+   CONTACT PAGE
+   --------------------------------------------------------- */
+html[data-theme="dark"] .contact-card,
+html[data-theme="dark"] .contact-grid > div,
+html[data-theme="dark"] .contact-method-card {
+  background: linear-gradient(135deg, #18211e 0%, #141c19 100%) !important;
+  border: 1px solid #31413a !important;
+}
+
+html[data-theme="dark"] .contact-card h3,
+html[data-theme="dark"] .contact-card a,
+html[data-theme="dark"] .contact-method-card a {
+  color: #b8d8ef !important;
+}
+
+html[data-theme="dark"] .contact-card .icon-box,
+html[data-theme="dark"] .contact-method-card .icon-box {
+  background: #22302a !important;
+  border: 1px solid #395046 !important;
+}
+
+/* ---------------------------------------------------------
+   LINKS
+   --------------------------------------------------------- */
+html[data-theme="dark"] a {
+  color: #9fcfe6;
+}
+
+html[data-theme="dark"] a:hover {
+  color: #cfe9f6;
+}
+
+/* ---------------------------------------------------------
+   TABLE / DIVIDERS / SEPARATORS
+   --------------------------------------------------------- */
+html[data-theme="dark"] hr,
+html[data-theme="dark"] .divider,
+html[data-theme="dark"] .home-news-list li,
+html[data-theme="dark"] .timeline-item,
+html[data-theme="dark"] .publication-card,
+html[data-theme="dark"] .single-talk-info-card .thesis-info-line {
+  border-color: #34443d !important;
+}
+
+/* ---------------------------------------------------------
+   TOPBAR / FOOTER
+   --------------------------------------------------------- */
+html[data-theme="dark"] .topbar {
+  background: rgba(15, 22, 20, 0.92) !important;
+  border-bottom: 1px solid #32423b !important;
+}
+
+html[data-theme="dark"] footer,
+html[data-theme="dark"] .site-footer {
+  color: #97aaa2 !important;
+}
