@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a doctoral researcher in the Department of Computer Science at the [University of Helsinki]([https://www.reddit.com](https://www.helsinki.fi/en), Finland. My PhD research focuses on **developing explainable data mining algorithms** under the supervision of [Prof. Nikolaj Tatti](https://scholar.google.com/citations?user=yRHnNkMAAAAJ&hl=en) and [Dr. Florian Adriaens] (https://scholar.google.com/citations?user=kk0mF14AAAAJ&hl=en).
+I am a doctoral researcher in the Department of Computer Science at the [University of Helsinki](https://www.helsinki.fi/en), Finland. My PhD research focuses on **developing explainable data mining algorithms** under the supervision of [Prof. Nikolaj Tatti](https://scholar.google.com/citations?user=yRHnNkMAAAAJ&hl=en) and [Dr. Florian Adriaens](https://scholar.google.com/citations?user=kk0mF14AAAAJ&hl=en).
 
 My broader interests include artificial intelligence and statistical data analysis techniques. I am particularly interested in applying these methods to real-world problems in areas such as public health, education, agriculture, and environmental science.
 
