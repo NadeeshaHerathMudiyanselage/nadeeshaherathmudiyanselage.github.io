@@ -6,7 +6,11 @@ email: nadeeshaherathmudiyanselage@helsinki.fi
 #inspirehep_id: 1010907 # Inspire HEP author ID
 #rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: https://scholar.google.com/citations?hl=en&user=0JaJkXQAAAAJ&view_op=list_works&sortby=pubdate # your Google Scholar ID
-research_gate_profile: https://www.researchgate.net/profile/Nadeesha-Herath-Mudiyanselage?ev=hdr_xprf
+research_gate_profile: Nadeesha-Herath-Mudiyanselage
+scopus_id: 58565738700
+orcid_id: 0000-0002-4708-5561
+linkedin_username: adeeshaherathmudiyanselage
+github_username: NadeeshaHerathMudiyanselage
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 #custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
