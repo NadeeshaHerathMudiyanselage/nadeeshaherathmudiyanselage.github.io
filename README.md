@@ -1,60 +1,48 @@
-# Simple Academic GitHub Page
+# Nadeesha Academic Website
 
-A very small static academic website for GitHub Pages.
+A simple static GitHub Pages academic website inspired by the structure of the reference academic site, but using your own content and code.
 
-## Files
+## Upload to GitHub Pages
 
-- `index.html` — all visible page sections
-- `style.css` — design
-- `script.js` — publication data + search/filter logic
-- `assets/profile.jpg` — put your profile photo here
-- `cv.pdf` — put your CV in the repository root
+Upload these files directly to the root of:
 
-## Edit the site
+`NadeeshaHerathMudiyanselage/nadeeshaherathmudiyanselage.github.io`
 
-### Profile image
-Add your image as:
+Then go to:
+
+**Settings → Pages → Build and deployment → Deploy from a branch → main → /(root)**
+
+## Profile photo
+
+Put your photo at:
 
 `assets/profile.jpg`
 
-### About / Research / Academic text
-Edit the relevant text directly in `index.html`.
+## CV
+
+Put your PDF at:
+
+`cv.pdf`
+
+## Edit your details
+
+### Home page
+Edit `index.html`.
 
 ### Publications
-Open `script.js` and edit the `publications` array.
+Edit only the `publications` array at the top of `publications.js`.
 
-Example:
+You do NOT need BibTeX/Jekyll/Liquid for the page to work. The BibTeX shown on the site is just text stored with each publication.
 
-```js
-{
-  year: 2026,
-  type: "Journal",
-  title: "Your paper title",
-  authors: "Your Name, Coauthor Name",
-  venue: "Journal Name",
-  keywords: ["Explainable AI", "Data Mining"],
-  links: {
-    paper: "https://...",
-    code: "https://..."
-  }
-}
-```
+### Teaching
+Edit `teaching.html`.
 
-The website automatically creates:
-- text search
-- year filter
-- type filter
-- clickable keyword filters
-- visible keywords under every paper
-- reverse chronological grouping
+## Important placeholders
 
-## Publish with GitHub Pages
+Search for:
+- `your.email@helsinki.fi`
+- `Add previous degree`
+- `Add course title`
+- `href="#"`
 
-1. Create a repository named `YOURUSERNAME.github.io`.
-2. Upload these files to the root of the repository.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`.
-6. Save.
-
-No Jekyll, Ruby, BibTeX, Liquid, or theme overrides are required.
+and replace them with your real details/links.

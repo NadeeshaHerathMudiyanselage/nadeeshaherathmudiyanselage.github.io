@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications | Nadeesha Herath Mudiyanselage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="shell topbar-inner">
+    <a class="site-name" href="index.html"><b>Nadeesha</b> Herath Mudiyanselage</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="cv.pdf" target="_blank">CV</a>
+    </nav>
+  </div>
+</header>
+
+<main class="shell single-page">
+  <div class="page-heading">
+    <h1>Publications</h1>
+    <p id="publicationCount" class="muted"></p>
+  </div>
+
+  <div class="pub-tools">
+    <input id="pubSearch" class="search-input" type="search" placeholder="Search publications...">
+    <select id="yearFilter" class="select-input"><option value="">All years</option></select>
+    <select id="typeFilter" class="select-input">
+      <option value="">All types</option>
+      <option>Journal Article</option>
+      <option>Conference Proceedings</option>
+      <option>Preprint</option>
+      <option>Book Chapter</option>
+    </select>
+  </div>
+
+  <section class="keyword-section">
+    <h2>Keywords</h2>
+    <div id="keywordButtons" class="tag-cloud clickable"></div>
+  </section>
+
+  <div id="publicationsContainer"></div>
+</main>
+
+<footer class="footer">
+  <div class="shell">© <span id="currentYear"></span> Nadeesha Herath Mudiyanselage</div>
+</footer>
+
+<script src="publications.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
