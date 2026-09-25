@@ -1910,3 +1910,69 @@ html[data-theme="dark"] .course-detail-section p,html[data-theme="dark"] .course
   justify-content:flex-end;
   text-align:right;
 }
+
+.footer-inner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-right-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer-copy {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.walker {
+  position: relative;
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+
+  animation: walk-path 3s ease-in-out infinite;
+}
+
+.walker-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* alternate the 2 images */
+.frame-1 {
+  animation: frame1 0.6s steps(1) infinite;
+}
+
+.frame-2 {
+  animation: frame2 0.6s steps(1) infinite;
+}
+
+/* girl moves right 3 small steps, then back left 3 small steps */
+@keyframes walk-path {
+  0%   { transform: translateX(0); }
+  16%  { transform: translateX(6px); }
+  32%  { transform: translateX(12px); }
+  48%  { transform: translateX(18px); }
+  64%  { transform: translateX(12px); }
+  80%  { transform: translateX(6px); }
+  100% { transform: translateX(0); }
+}
+
+/* frame swap */
+@keyframes frame1 {
+  0%, 49%   { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+@keyframes frame2 {
+  0%, 49%   { opacity: 0; }
+  50%, 100% { opacity: 1; }
+}
