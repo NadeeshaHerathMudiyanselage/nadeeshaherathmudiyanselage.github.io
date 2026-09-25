@@ -1905,3 +1905,8 @@ html[data-theme="dark"] .course-detail-section p,html[data-theme="dark"] .course
   object-fit:cover;
   object-position:center 35%;
 }
+
+.footer-inner{
+  justify-content:flex-end;
+  text-align:right;
+}
