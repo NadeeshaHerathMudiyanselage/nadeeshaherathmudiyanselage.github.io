@@ -2150,3 +2150,16 @@ html[data-theme="dark"] .course-detail-section p,html[data-theme="dark"] .course
     font-size: 0.78rem !important;
   }
 }
+
+.linkedin-icon{
+  display:grid;
+  place-items:center;
+  background:#0A66C2;
+  border-radius:4px;
+}
+
+.linkedin-icon svg{
+  width:15px;
+  height:15px;
+  fill:#ffffff;
+}
