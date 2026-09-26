@@ -2068,37 +2068,26 @@ html[data-theme="dark"] .course-detail-section p,html[data-theme="dark"] .course
 
 @keyframes mini-walk {
 
-  /* start */
   0% {
     transform: translateX(0px) translateY(0);
   }
 
-  /* step 1 */
-  16.6% {
-    transform: translateX(12px) translateY(-2px);
+  /* right step 1 */
+  25% {
+    transform: translateX(16px) translateY(-2px);
   }
 
-  /* step 2 */
-  33.3% {
-    transform: translateX(24px) translateY(0);
-  }
-
-  /* step 3 */
+  /* right step 2 */
   50% {
-    transform: translateX(38px) translateY(-2px);
+    transform: translateX(32px) translateY(0);
   }
 
-  /* step 1 back */
-  66.6% {
-    transform: translateX(24px) translateY(0);
+  /* left step 1 */
+  75% {
+    transform: translateX(16px) translateY(-2px);
   }
 
-  /* step 2 back */
-  83.3% {
-    transform: translateX(12px) translateY(-2px);
-  }
-
-  /* step 3 back */
+  /* left step 2 / back to start */
   100% {
     transform: translateX(0px) translateY(0);
   }
