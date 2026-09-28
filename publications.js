@@ -3,7 +3,7 @@ const publications = [
   {
     year: 2024,
     type: "Conference Paper",
-    status: "",
+    status: "Under Review",
     title: "Comparative Analysis of Jellyfish Classification: A Study Using YOLOv8 and Pre-trained Models",
     venue: "International Research Conference on Smart Computing and Systems Engineering (SCSE)",
     authors: "U.M.M.P.K. Nawarathne, H.M.L.S. Kumari, Nadeesha Herath Mudiyanselage",
