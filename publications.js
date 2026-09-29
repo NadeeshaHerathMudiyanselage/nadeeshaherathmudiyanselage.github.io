@@ -162,13 +162,16 @@ function render(){
 
     yearPubs.forEach((p,i) => {
       const id = `pub-${year}-${i}`;
+      const isUnderReview = p.status.trim().toLowerCase() === "under review";
       const statusHtml = p.status
         ? `<span class="pub-status status-under-review">${esc(p.status)}</span>`
         : "";
 
-      const pdfHtml = p.links?.pdf
-        ? `<a class="pdf-link" href="${p.links.pdf}" target="_blank" rel="noopener">${pdfIcon()}<span>PDF</span></a>`
-        : "";
+      const pdfHtml = !isUnderReview && p.links?.pdf
+  ? `<a class="pdf-link" href="${p.links.pdf}" target="_blank" rel="noopener">
+       ${pdfIcon()}<span>PDF</span>
+     </a>`
+  : "";
 
       const card = document.createElement("article");
       card.className = "pub-card";
@@ -186,18 +189,25 @@ function render(){
         <div class="pub-keywords">
         ${p.keywords.map(k => `<span>${esc(k)}</span>`).join("")}
         </div>
+${!isUnderReview ? `
+  <div class="pub-actions">
+    ${pdfHtml}
 
+    <button data-target="${id}-abs" data-kind="abstract">
+      Abstract ${arrowIcon()}
+    </button>
 
+    <button data-target="${id}-bib" data-kind="bibtex">
+      BibTeX ${arrowIcon()}
+    </button>
+  </div>
 
-        <div class="pub-actions">
-          ${pdfHtml}
-          <button data-target="${id}-abs" data-kind="abstract">Abstract ${arrowIcon()}</button>
-          <button data-target="${id}-bib" data-kind="bibtex">BibTeX ${arrowIcon()}</button>
-        </div>
+  <div id="${id}-abs" class="details details-abstract">
+    ${esc(p.abstract)}
+  </div>
 
-        <div id="${id}-abs" class="details details-abstract">${esc(p.abstract)}</div>
-
-        <pre id="${id}-bib" class="details details-bibtex">${esc(p.bibtex)}</pre>
+  <pre id="${id}-bib" class="details details-bibtex">${esc(p.bibtex)}</pre>
+` : ""}
       `;
       group.appendChild(card);
     });
