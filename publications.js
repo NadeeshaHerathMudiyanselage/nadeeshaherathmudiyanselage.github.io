@@ -178,22 +178,24 @@ function render(){
           ${statusHtml}
         </div>
 
+        
+
         <h3>${esc(p.title)}</h3>
         <div class="pub-venue">${esc(p.venue)}</div>
-        <div class="pub-authors">${formatAuthors(p.authors)}</div>
         <div class="pub-keywords">
-          ${p.keywords.map(k => `<span>${esc(k)}</span>`).join("")}
+        ${p.keywords.map(k => `<span>${esc(k)}</span>`).join("")}
         </div>
+
+<div class="pub-authors">${formatAuthors(p.authors)}</div>
 
         <div class="pub-actions">
           ${pdfHtml}
           <button data-target="${id}-abs" data-kind="abstract">Abstract ${arrowIcon()}</button>
-          <button data-target="${id}-keys" data-kind="keywords">Keywords ${arrowIcon()}</button>
           <button data-target="${id}-bib" data-kind="bibtex">BibTeX ${arrowIcon()}</button>
         </div>
 
         <div id="${id}-abs" class="details details-abstract">${esc(p.abstract)}</div>
-        <div id="${id}-keys" class="details details-keywords">${p.keywords.map(esc).join(" · ")}</div>
+
         <pre id="${id}-bib" class="details details-bibtex">${esc(p.bibtex)}</pre>
       `;
       group.appendChild(card);
