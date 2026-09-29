@@ -7,11 +7,36 @@ const publications = [
     title: "Global Disaster Risk Assessment Using World Risk Index Data: A Geospatial and Visual Analytics Approach",
     venue: "KDU Journal of Multidisciplinary Studies (KJMS)",
     authors: "Malithi Nawarathne, Nadeesha Herath Mudiyanselage, Lihini Sangeetha ",
-    keywords: ["Faster R-CNN","Object Detection","Underwater Garbage Detection","YOLOv8"],
+    keywords: ["Data Visualization","Disaster Risk Assessment","Geospatial Analysis","Visual Analytics", "Word Risk Index"],
     abstract: "",
-    bibtex: "@article{nawarathne2025underwater,\n title={Underwater Waste Detection Using Deep Learning A Performance Comparison of YOLOv7 to 10 and Faster RCNN},\n author={Nawarathne, UMMPK and Kumari, HMNS and Kumari, HMLS},\n journal={arXiv preprint arXiv:2507.18967},\n year={2025}}",
-    links: { pdf: "https://ijrcom.org/index.php/ijrc/article/view/160/20" }
+    bibtex: "",
+    links: { pdf: "" }
   },
+   {
+    year: 2026,
+    type: "Journal Article",
+    status: "Under Review",
+    title: "Deep Learning-based Semantic Segmentation of Dental Radiographs: Comparative Evaluation of PSPNet, DeepLabv3, UNet, and UNet++",
+    venue: "KDU Journal of Multidisciplinary Studies (KJMS)",
+    authors: "Malithi Nawarathne, Nadeesha Herath Mudiyanselage, Lihini Sangeetha ",
+    keywords: ["Convolutional Neural Networks","Dental Radiograph Segmentation","Deep Learning","Semantic Segmentation", "UNet++"],
+    abstract: "",
+    bibtex: "",
+    links: { pdf: "" }
+  },
+{
+    year: 2026,
+    type: "Journal Article",
+    status: "Under Review",
+    title: "Comparative Causal Analysis of Treatment Effect on Diabetic Readmission Using S, T, D and Dr Meta-Learners with Random Forest, XGBoost, LightGBM, And Catboost Models",
+    venue: "KDU Journal of Multidisciplinary Studies (KJMS)",
+    authors: "Lihini Sangeetha, Nadeesha Herath Mudiyanselage, Malithi Nawarathne",
+    keywords: ["Causal Machine Learning","Causal Meta-Learners","Conditional Average Treatment Effect","Diabetes Readmission", "Hospital Readmission", "Treatment Effects"],
+    abstract: "",
+    bibtex: "",
+    links: { pdf: "" }
+  },
+  
   {
     year: 2026,
     type: "Journal Article",
