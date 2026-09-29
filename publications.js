@@ -93,6 +93,26 @@ function esc(v){
     .replaceAll(">","&gt;");
 }
 
+function formatAuthors(authors){
+  const myNames = [
+    "Nadeesha Herath Mudiyanselage",
+    "HMNS Kumari"
+  ];
+
+  let safeAuthors = esc(authors);
+
+  myNames.forEach(name => {
+    const safeName = esc(name);
+
+    safeAuthors = safeAuthors.replaceAll(
+      safeName,
+      `<strong>${safeName}</strong>`
+    );
+  });
+
+  return safeAuthors;
+}
+
 function pdfIcon(){
   return `<svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true">
     <path d="M6 2h8l4 4v16H6V2Zm7 1.8V7h3.2L13 3.8ZM8 11h2.2c1.8 0 2.8.9 2.8 2.4 0 1.6-1 2.5-2.9 2.5H9.5V19H8v-8Zm1.5 1.3v2.3h.6c.9 0 1.4-.4 1.4-1.2 0-.7-.5-1.1-1.4-1.1h-.6Z"/>
@@ -160,8 +180,7 @@ function render(){
 
         <h3>${esc(p.title)}</h3>
         <div class="pub-venue">${esc(p.venue)}</div>
-        <div class="pub-authors">${esc(p.authors)}</div>
-
+        <div class="pub-authors">${formatAuthors(p.authors)}</div>
         <div class="pub-keywords">
           ${p.keywords.map(k => `<span>${esc(k)}</span>`).join("")}
         </div>
