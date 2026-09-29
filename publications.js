@@ -182,11 +182,12 @@ function render(){
 
         <h3>${esc(p.title)}</h3>
         <div class="pub-venue">${esc(p.venue)}</div>
+        <div class="pub-authors">${formatAuthors(p.authors)}</div>
         <div class="pub-keywords">
         ${p.keywords.map(k => `<span>${esc(k)}</span>`).join("")}
         </div>
 
-<div class="pub-authors">${formatAuthors(p.authors)}</div>
+
 
         <div class="pub-actions">
           ${pdfHtml}
