@@ -9,12 +9,7 @@ const publications = [
     authors: "UMMPK Nawarathne, HMNS Kumari, HMLS Kumari",
     keywords: ["Faster R-CNN","Object Detection","Underwater Garbage Detection","YOLOv8"],
     abstract: "Underwater  pollution  is  one  of  today’s  most  significant  en-vironmental  concerns,  with  vast  volumes  of  garbage  foundin  seas,  rivers,  and  landscapes  around  the  world.    Accu-rate  detection  of  these  waste  materials  is  crucial  for  suc-cessful  waste  management,  environmental  monitoring,  andmitigation  strategies.In  this  study,  we  investigated  theperformance  of  five  cutting-edge  object  recognition  algo-rithms,  namely  YOLO  (You  Only  Look  Once)  models,  in-cluding YOLOv7, YOLOv8, YOLOv9, YOLOv10, and FasterRegion-Convolutional  Neural  Network  (R-CNN),  to  iden-tify  which  model  was  most  effective  at  recognizing  materi-als  in  underwater  situations.   The  models  were  thoroughlytrained and tested on a large dataset containing fifteen dif-ferent  classes  under  diverse  conditions,  such  as  low  visibil-ity and variable depths.  From the above-mentioned models,YOLOv8 outperformed the others, with a mean Average Pre-cision (mAP) of 80.9%, indicating a significant performance.This  increased  performance  is  attributed  to  YOLOv8’s  ar-chitecture, which incorporates advanced features such as im-proved anchor-free mechanisms and self-supervised learning,allowing for more precise and efficient recognition of items ina variety of settings.  These findings highlight the YOLOv8model’s  potential  as  an  effective  tool  in  the  global  fightagainst pollution,  improving both the detection capabilitiesand scalability of underwater cleanup operations that will alsoaid environmental AI specialists and interested parties.",
-    bibtex: "@article{nawarathne2025underwater,
-  title={Underwater Waste Detection Using Deep Learning A Performance Comparison of YOLOv7 to 10 and Faster RCNN},
-  author={Nawarathne, UMMPK and Kumari, HMNS and Kumari, HMLS},
-  journal={arXiv preprint arXiv:2507.18967},
-  year={2025}
-}",
+    bibtex: "@article{nawarathne2025underwater,\n title={Underwater Waste Detection Using Deep Learning A Performance Comparison of YOLOv7 to 10 and Faster RCNN},\n author={Nawarathne, UMMPK and Kumari, HMNS and Kumari, HMLS},\n journal={arXiv preprint arXiv:2507.18967},\n year={2025}}",
     links: { pdf: "https://ijrcom.org/index.php/ijrc/article/view/160/20" }
   },
   {
