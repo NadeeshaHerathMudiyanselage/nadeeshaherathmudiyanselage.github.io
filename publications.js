@@ -61,6 +61,18 @@ const publications = [
     bibtex: "@article{mudiyanselage2026differentiated,\n title={Differentiated Thyroid Cancer Recurrence Classification Using Machine Learning Models and Bayesian Neural Networks with Varying Priors: A SHAP-Based Interpretation of the Best Performing Model},\n author={Mudiyanselage, Nadeesha Shyami Kumari Herath and Kumari, HMLS and Nawarathne, UMMPK},\n journal={International Journal of Research in Computing (IJRC)},\n volume={5},\n number={2},\n pages={17--42},\n year={2026}}",
     links: { pdf: "https://www.ijrcom.org/index.php/ijrc/article/view/161/22" }
   },
+  {
+    year: 2025,
+    type: "Journal Article",
+    status: "",
+    title: "Speech Emotion Recognition with Hybrid CNN-LSTM and Transformers Models: Evaluating the Hybrid Model Using Grad-CAM",
+    venue: "International Journal of Research in Computing (IJRC)",
+    authors: "HMLS Kumari, HMNS Kumari, UMMPK Nawarathne",
+    keywords: ["Convolutional Neural Network","Grad-CAM","Hybrid Model","Image Transformers","Long Short-Term Memory","Speech Emotion Recognition"],
+    abstract: "Emotionalrecognitionandclassificationusingartificialintelligence(AI)techniquesplayacrucialrolein human-computer  interaction  (HCI).  It  enables  the  prediction  of  human  emotions  from  audio  signals  with  broad applications  in  psychology,  medicine,  education,  entertainment,  etc.  This  research  focused  on  speech-emotion recognition (SER) by employing classification methods and transformer models using the  Toronto Emotional  Speech Set (TESS). Initially, acoustic features were extracted using different feature extraction techniques, including chroma, Mel-scaled spectrogram, contrast features, and Mel Frequency Cepstral Coefficients (MFCCs) from the audio dataset. Then, this study employed a Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM), and a hybrid CNN-LSTM  model  to  classify  emotions.  To  compare  the  performance  of  these  models,  classical  image  transformer models  such  as  ViT  (Visual  Image  Transformer)  and  BEiT  (Bidirectional  Encoder  Representation  of  Images)  were employedontheMel-spectogramsderivedfromthesamedataset.Evaluationmetricssuchasaccuracy,precision,recall, and F1-scorewere calculatedfor eachofthese models to ensure a comprehensiveperformance comparison. According totheresults,thehybridmodelperformedbetterthanothermodelsbyachievinganaccuracyof99.01%,whiletheCNN, LSTM,ViT,andBEiTmodelsdemonstratedaccuraciesof95.37%,98.57%,98%,and98.3%, respectively.Tointerpret theoutputofthishybridmodelandtoprovidevisualexplanationsofitspredictions,theGrad-CAM(Gradient-weighted ClassActivationMappings)wasobtained.Thistechniquereducedtheblack-boxcharacterofdeepmodels,makingthem morereliabletouseinclinicalandotherdelicate contexts. Inconclusion,thehybridCNN-LSTMmodelshowed strong performance in audio-based emotion classification.",
+    bibtex: "@article{mudiyanselage2025speech,\n title={Speech emotion recognition with hybrid CNN-LSTM and transformers models: Evaluating the hybrid model using Grad-CAM},\n author={Mudiyanselage, Lihini Sangeetha Kumari Herath and Kumari, HMNS and Nawarathne, UMMPK},\n journal={International Journal of Research in Computing (IJRC)},\n volume={4},\n number={II},\n pages={56--66},\n year={2025}}",
+    links: { pdf: "https://www.ijrcom.org/index.php/ijrc/article/view/159/10" }
+  },
   
   {
     year: 2024,
