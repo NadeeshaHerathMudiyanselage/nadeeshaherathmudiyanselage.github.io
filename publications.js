@@ -15,7 +15,7 @@ const publications = [
    {
     year: 2026,
     type: "Journal Article",
-    status: "Accepted",
+    status: "Under Review",
     title: "Deep Learning-based Semantic Segmentation of Dental Radiographs: Comparative Evaluation of PSPNet, DeepLabv3, UNet, and UNet++",
     venue: "KDU Journal of Multidisciplinary Studies (KJMS)",
     authors: "Malithi Nawarathne, Nadeesha Herath Mudiyanselage, Lihini Sangeetha ",
@@ -73,18 +73,29 @@ const publications = [
     bibtex: "@article{mudiyanselage2025speech,\n title={Speech emotion recognition with hybrid CNN-LSTM and transformers models: Evaluating the hybrid model using Grad-CAM},\n author={Mudiyanselage, Lihini Sangeetha Kumari Herath and Kumari, HMNS and Nawarathne, UMMPK},\n journal={International Journal of Research in Computing (IJRC)},\n volume={4},\n number={II},\n pages={56--66},\n year={2025}}",
     links: { pdf: "https://www.ijrcom.org/index.php/ijrc/article/view/159/10" }
   },
-  
+  {
+    year: 2025,
+    type: "Thesis",
+    status: "",
+    title: "Prior Distribution Approaches in Bayesian Survival Models",
+    venue: "Tampere Univerity, Finland",
+    authors: "Nadeesha Shyami Kumari Herath Mudiyanselage",
+    keywords: ["Bayesian Survival Models","Feature Selection","Hierarchical Prior","Posterior Prior", "Prior Distributions"],
+    abstract: "Survival analysis techniques have been applied across various fields, including medicine, engineering, social science, economics, etc, over the past decades. However, classical survival methods face major limitations, including challenges in accurately quantifying uncertainties and the difficulty of dealing with complex data structures. To overcome these challenges, Bayesian survival models have emerged as an alternative approach that provides a flexible and robust methodology. However, the prior distributions of these models play a pivotal role in drawing the final conclusion as they influence the posterior distribution by combining with the likelihood. Therefore, it is important to pay significant attention to different prior distribution approaches in the context of Bayesian survival models. In this study, we evaluated three different ways of setting prior distributions due to their potential to address the key aspects of Bayesian survival modeling: enhancing feature selection, leveraging prior information into the model, and modeling group-level variations using hierarchical structures. In the first approach, we examined how well Gaussian, Laplace, and Spike-and-Slab prior distributions perform in the feature selection process using Bayesian survival models. According to the results, it is clear that the Spike-and-Slab prior performed better than Gaussian and Laplace priors by shrinking the estimates of features towards zero while highlighting the irrelevant features. In the second approach, we assessed the effectiveness of Bayesian survival models by applying a posterior distribution obtained from an earlier study as the prior distribution of the new study. To compare the performance of the posterior prior, we also employed the Bayesian survival model with a weakly informative prior on simulated datasets while varying censoring thresholds and the number of observations. We observed that the Bayesian model with the posterior prior outperformed the weakly informative prior. However, the model with the weakly informative prior performed better than the posterior prior in larger datasets, highlighting the need for careful selection of prior distributions. In the final approach, we compared the performance of hierarchical Bayesian survival models to the non-hierarchical models, mainly focusing on groups with higher levels of risks, such as diseased individuals, using two simulated datasets with varying sample sizes. We observed that the hierarchical Bayesian survival model exhibited better performance than non-hierarchical models while capturing group-level variations. In summary, our findings reveal that carefully selected priors can help in extracting meaningful information from data and thus contribute to advancing the Bayesian survival analysis field.",
+    bibtex: "@article{mudiyanselage2024prior,\n title={PRIOR DISTRIBUTION APPROACHES IN BAYESIAN SURVIVAL MODELS},\n author={Mudiyanselage, Nadeesha Shyami Kumari Herath},\n year={2024}}",
+    links: { pdf: "https://trepo.tuni.fi/bitstream/handle/10024/224670/HerathMudiyanselageNadeesha.pdf?sequence=2&isAllowed=y" }
+  },
   {
     year: 2024,
-    type: "Conference Paper",
-    status: "Under Review",
+    type: "Conference Proceedings",
+    status: "",
     title: "Comparative Analysis of Jellyfish Classification: A Study Using YOLOv8 and Pre-trained Models",
-    venue: "International Research Conference on Smart Computing and Systems Engineering (SCSE)",
-    authors: "U.M.M.P.K. Nawarathne, H.M.L.S. Kumari, Nadeesha Herath Mudiyanselage",
-    keywords: ["Computer Vision","Deep Learning","YOLO","Image Classification"],
-    abstract: "Add or revise the abstract here.",
-    bibtex: "@inproceedings{jellyfish2024,\n  title={Comparative Analysis of Jellyfish Classification: A Study Using YOLOv8 and Pre-trained Models},\n  year={2024}\n}",
-    links: { pdf: "https://doi.org/10.1109/SCSE61872.2024.10550783" }
+    venue: "International Research Conference on Smart Computing and Systems Engineering (SCSE) - 2024",
+    authors: "UMMPK Nawarathne, HMLS Kumari, HMNS Kumari",
+    keywords: ["Jellyfish","Neural Networks","Pre-Trained Models","YOLOv8"],
+    abstract: "Jellyfish classification holds significant importance due to its implications in environmental monitoring, marine conservation, and public safety. Understanding the distribution and characteristics of jellyfish populations can provide valuable insights into the health of marine ecosystems, helping to manage fisheries, protect biodiversity, and mitigate potential ecological imbalances. Therefore, this study experimented with deep learning models for jellyfish classification, ranging from traditional convolutional neural networks (CNNs) such as DenseNet, InceptionV3, MobileNet, MobileNetV2, and NASNet Mobile and as well as the newly introduced YOLO architecture, YOLOv8. The dataset was comprised of six different types of jellyfish images. Notably, YOLOv8 stands out with an impressive accuracy of 99.5%, demonstrating its efficacy in accurately detecting and classifying jellyfish instances. Other models, such as DenseNet and MobileNet, also yield high accuracy scores, emphasizing the versatility of deep learning models in handling complex image classification tasks. The robust methodologies employed in training these models, combined with the achieved high accuracies, pave the way for enhanced understanding and monitoring of jellyfish populations, contributing to the sustainable management of marine ecosystems. In conclusion, jellyfish classification using YOLOv8 architecture is a crucial tool for marine researchers, environmentalists, and policymakers.",
+    bibtex: "@inproceedings{nawarathne2024comparative, \n title={Comparative analysis of jellyfish classification: A study using YOLOv8 and pre-trained models},\n author={Nawarathne, UMMPK and Kumari, HMLS and Kumari, HMNS},\n booktitle={2024 International Research Conference on Smart Computing and Systems Engineering (SCSE)},\n volume={7},\n pages={1--6},\n year={2024},\n organization={IEEE}}",
+    links: { pdf: "https://ieeexplore.ieee.org/abstract/document/10550783/keywords#keywords" }
   },
   {
     year: 2024,
@@ -146,7 +157,8 @@ function esc(v){
 function formatAuthors(authors){
   const myNames = [
     "Nadeesha Herath Mudiyanselage",
-    "HMNS Kumari"
+    "HMNS Kumari",
+    "Nadeesha Shyami Kumari Herath Mudiyanselage"
   ];
 
   let safeAuthors = esc(authors);
