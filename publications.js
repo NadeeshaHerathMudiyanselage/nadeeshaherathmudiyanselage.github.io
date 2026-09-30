@@ -15,7 +15,7 @@ const publications = [
    {
     year: 2026,
     type: "Journal Article",
-    status: "Under Review",
+    status: "Accepted",
     title: "Deep Learning-based Semantic Segmentation of Dental Radiographs: Comparative Evaluation of PSPNet, DeepLabv3, UNet, and UNet++",
     venue: "KDU Journal of Multidisciplinary Studies (KJMS)",
     authors: "Malithi Nawarathne, Nadeesha Herath Mudiyanselage, Lihini Sangeetha ",
