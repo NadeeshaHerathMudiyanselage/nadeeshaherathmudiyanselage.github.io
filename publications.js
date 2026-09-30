@@ -177,8 +177,8 @@ function typeClass(type){
   const t = type.toLowerCase();
   if(t.includes("conference")) return "tag-conference";
   if(t.includes("journal")) return "tag-journal";
-  if(t.includes("preprint")) return "tag-preprint";
-  if(t.includes("book")) return "tag-book";
+  if(t.includes("thesis")) return "tag-thesis";
+  if(t.includes("abstract")) return "tag-abstract";
   return "tag-default";
 }
 
@@ -212,9 +212,16 @@ function render(){
 
     yearPubs.forEach((p,i) => {
       const id = `pub-${year}-${i}`;
-      const isUnderReview = p.status.trim().toLowerCase() === "under review";
+      const status = p.status.trim().toLowerCase();
+      const isUnderReview = status === "under review";
+      const statusClass =
+        status === "accepted"
+          ? "status-accepted"
+          : status === "under review"
+          ? "status-under-review"
+          : "status-default";
       const statusHtml = p.status
-        ? `<span class="pub-status status-under-review">${esc(p.status)}</span>`
+        ? `<span class="pub-status ${statusClass}">${esc(p.status)}</span>`
         : "";
 
       const pdfHtml = !isUnderReview && p.links?.pdf
