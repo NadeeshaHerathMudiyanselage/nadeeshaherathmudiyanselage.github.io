@@ -2206,3 +2206,28 @@ html[data-theme="dark"] .course-detail-section p,html[data-theme="dark"] .course
   background:#f2f3f5 !important;
   color:#56606b !important;
 }
+
+.tag-event{
+  background:#e8f5ef;
+  color:#19704b;
+}
+
+.tag-project{
+  background:#eaf2fb;
+  color:#2f6696;
+}
+
+.tag-mentoring{
+  background:#fff3cd;
+  color:#7a5b00;
+}
+
+.tag-leadership{
+  background:#f1ebfb;
+  color:#6b47a2;
+}
+
+.tag-hosting{
+  background:#fde9e7;
+  color:#a13f35;
+}
