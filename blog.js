@@ -6,7 +6,7 @@ const posts = [
     displayDate:"05 January 2026",
     category:"Education",
     tags:["education","research"],
-    image: "assets/blog/doctoral-studies.jpeg",
+    image: "blog/doctoral-studies.jpeg",
     excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
     url:"blog/finland-scholarship.html"
   },
