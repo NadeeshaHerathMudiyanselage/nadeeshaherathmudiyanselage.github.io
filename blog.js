@@ -11,6 +11,16 @@ const posts = [
     url:"blog/finland-scholarship.html"
   },
   {
+    title:"Graduated with a M.Sc in Computing Sciences from Tampere University, Finland",
+    date:"2025-04-25",
+    displayDate:"25 April 2025",
+    category:"Education",
+    tags:["education"],
+    image: "blog/doctoral-studies.jpeg",
+    excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
+    url:"blog/finland-scholarship.html"
+  },
+  {
     title:"From Master's Thesis to Doctoral Research",
     date:"2026-08-20",
     displayDate:"20 August 2026",
