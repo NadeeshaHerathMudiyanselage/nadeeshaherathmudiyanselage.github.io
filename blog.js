@@ -6,6 +6,7 @@ const posts = [
     displayDate:"05 January 2026",
     category:"Education",
     tags:["education","research"],
+    image: "assets/blog/doctoral-studies.jpg",
     excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
     url:"blog/finland-scholarship.html"
   },
@@ -117,7 +118,14 @@ function renderBlog(){
     article.className = "blog-card";
     const link = p.url === "#" ? '<span class="read-more muted">Post coming soon</span>' : `<a class="read-more" href="${p.url}">Read more →</a>`;
     article.innerHTML = `
-      <div class="blog-thumb">${p.category}</div>
+      <div class="blog-thumb">
+        <img
+          src="${p.image}"
+          alt="${p.title}"
+          loading="lazy"
+        >
+        <span class="blog-image-category">${p.category}</span>
+      </div>
       <div class="blog-content">
         <div class="blog-date">${p.displayDate}</div>
         <h2>${p.title}</h2>
