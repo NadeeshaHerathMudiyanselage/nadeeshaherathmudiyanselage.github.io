@@ -1,9 +1,9 @@
 
 const posts = [
   {
-    title:"My Finland Scholarship Journey",
-    date:"2026-09-10",
-    displayDate:"10 September 2026",
+    title:"Started Doctoral Studies at the University of Helsinki, Finland",
+    date:"2026-01-05",
+    displayDate:"05 January 2026",
     category:"Education",
     tags:["education","research"],
     excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
