@@ -21,6 +21,86 @@ const posts = [
     url:"blog/finland-scholarship.html"
   },
   {
+    title:"First Volunteer Experience at an International Conference in Finland",
+    date:"2025-04-25",
+    displayDate:"25 April 2025",
+    category:"Volunteer",
+    tags:["volunteer", "research"],
+    image: "blog/doctoral-studies.jpeg",
+    excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
+    url:"blog/finland-scholarship.html"
+  },
+  {
+    title:"Started Studying for Master's Degree in Tampere University, Finland",
+    date:"2023-08-21",
+    displayDate:"21 August 2023",
+    category:"Education",
+    tags:["education"],
+    image: "blog/doctoral-studies.jpeg",
+    excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
+    url:"blog/finland-scholarship.html"
+  },
+  {
+    title:"Recieved Finland Scholarship",
+    date:"2023-08-21",
+    displayDate:"21 August 2023",
+    category:"Award",
+    tags:["award","scholarship"],
+    image: "blog/doctoral-studies.jpeg",
+    excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
+    url:"blog/finland-scholarship.html"
+  },
+  {
+    title:"Appointed as a Temporary Instructor",
+    date:"2022-01-03",
+    displayDate:"03 January 2022",
+    category:"Employment",
+    tags:["employment"],
+    image: "blog/doctoral-studies.jpeg",
+    excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
+    url:"blog/finland-scholarship.html"
+  },
+  {
+    title:"Graduated with B.Sc in Statistics and Operations Research",
+    date:"2022-02-24",
+    displayDate:"24 February 2022",
+    category:"Education",
+    tags:["education"],
+    image: "blog/doctoral-studies.jpeg",
+    excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
+    url:"blog/finland-scholarship.html"
+  },
+  {
+    title:"Appointed as a Temporary Demonstrator",
+    date:"2020-03-10",
+    displayDate:"10 March 2020",
+    category:"Employment",
+    tags:["employment"],
+    image: "blog/doctoral-studies.jpeg",
+    excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
+    url:"blog/finland-scholarship.html"
+  },
+  {
+    title:"Winning My First Research Presentation Award",
+    date:"2020-03-10",
+    displayDate:"10 March 2020",
+    category:"Award",
+    tags:["award", "research"],
+    image: "blog/doctoral-studies.jpeg",
+    excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
+    url:"blog/finland-scholarship.html"
+  },
+  {
+    title:"My First Publication",
+    date:"2020-03-10",
+    displayDate:"10 March 2020",
+    category:"Research",
+    tags:["research"],
+    image: "blog/doctoral-studies.jpeg",
+    excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
+    url:"blog/finland-scholarship.html"
+  },
+  {
     title:"From Master's Thesis to Doctoral Research",
     date:"2026-08-20",
     displayDate:"20 August 2026",
