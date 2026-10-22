@@ -7,7 +7,7 @@ const posts = [
     category:"Education",
     tags:["education","research"],
     image: "blog/doctoral-studies.jpeg",
-    excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
+    excerpt:"A short reflection on beginning a doctoral research journey, adapting to a new academic environment, and building research direction step by step.",
     url:"blog/finland-scholarship.html"
   },
   {
