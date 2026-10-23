@@ -2399,3 +2399,10 @@ html[data-theme="dark"] .course-detail-section p,html[data-theme="dark"] .course
     object-position: center;
     border-radius: 12px;
 }
+
+.post-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
