@@ -2346,3 +2346,27 @@ html[data-theme="dark"] .course-detail-section p,html[data-theme="dark"] .course
         text-align: left;
     }
 }
+
+.post-image {
+    width: 100%;
+    margin: 25px 0 35px;
+    text-align: center;
+}
+
+.post-image img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+    .post-image img {
+        max-height: 200px;
+    }
+}
