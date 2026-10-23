@@ -17,8 +17,8 @@ const posts = [
     category:"Education",
     tags:["education"],
     image: "blog/doctoral-studies.jpeg",
-    excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
-    url:"blog/finland-scholarship.html"
+    excerpt:"Celebrating my M.Sc. graduation with Distinction from Tampere University, highlighting my achievements in Statistical Data Analytics and and the experiences that shaped my academic growth.",
+    url:"blog/msc-graduation.html"
   },
   {
     title:"First Volunteer Experience at an International Conference in Finland",
