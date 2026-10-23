@@ -2333,3 +2333,16 @@ html[data-theme="dark"] .course-detail-section p,html[data-theme="dark"] .course
     height: 200px;
   }
 }
+/* Blog article paragraph alignment */
+
+.post-body p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+@media (max-width: 760px) {
+    .post-body p {
+        text-align: left;
+    }
+}
