@@ -26,7 +26,7 @@ const posts = [
     displayDate:"25 April 2025",
     category:"Volunteer",
     tags:["volunteer", "research"],
-    image: "blog/doctoral-studies.jpeg",
+    image: "blog/volunteer1.jpeg",
     excerpt:"A short reflection on receiving the Finland Scholarship and how it supported my master's journey in Finland.",
     url:"blog/finland-scholarship.html"
   },
