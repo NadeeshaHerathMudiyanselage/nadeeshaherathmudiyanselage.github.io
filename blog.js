@@ -16,7 +16,7 @@ const posts = [
     displayDate:"25 April 2025",
     category:"Education",
     tags:["education"],
-    image: "blog/doctoral-studies.jpeg",
+    image: "blog/msc-graduation1.jpeg",
     excerpt:"Celebrating my M.Sc. graduation with Distinction from Tampere University, highlighting my achievements in Statistical Data Analytics and and the experiences that shaped my academic growth.",
     url:"blog/msc-graduation.html"
   },
